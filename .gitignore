@@ -1,0 +1,24 @@
+# Editor files
+*.env
+*.iml
+.idea/*
+.vscode/
+.project
+.settings/*
+
+# Dependencies
+node_modules/*
+
+# Generated Artifacts
+build/*
+target/*
+aggregated-translations/*
+src/main/resources/public/*
+.classpath
+stats.json
+.coverage/
+
+#Maven Install Locations
+node/*
+*.fpr
+*.pdf
