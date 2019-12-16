@@ -4,6 +4,7 @@ const path = require('path');
 const webpack = require('webpack');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 const ManifestPlugin = require('webpack-manifest-plugin');
+const CopyWebpackPlugin = require('copy-webpack-plugin');
 
 const srcPath = path.join(__dirname, 'src');
 const pubPath = path.join(__dirname, 'public');
@@ -20,7 +21,7 @@ module.exports = {
       {
         test: /\.(css)$/,
         exclude: /node_modules/,
-        use: ['css-loader']
+        use: ['style-loader', 'css-loader']
       }
     ]
   },
@@ -36,8 +37,7 @@ module.exports = {
     new HtmlWebpackPlugin({
       template: path.join(srcPath, 'index.html'),
       filename: path.join(pubPath, 'index.html'),
-      favicon: path.join(srcPath, 'images', 'favicon.ico'),
-      chunks: ['raf', 'babel-polyfill', 'index'],
+      favicon: path.join(srcPath, 'images', 'favicon.ico')
     }),
     new ManifestPlugin({
       generate: (seed, files) => ({
@@ -49,11 +49,13 @@ module.exports = {
     new webpack.DefinePlugin({
       'app.revision': JSON.stringify(revision)
     }),
+    new CopyWebpackPlugin([
+      { from: path.join(srcPath, 'images'), to: 'images' }
+    ]),
   ],
   devServer: {
     openPage: 'index.html',
     open: true,
-    contentBase: pubPath,
-    hot: true
+    contentBase: pubPath
   }
 };
