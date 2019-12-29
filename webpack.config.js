@@ -54,8 +54,9 @@ module.exports = {
     ]),
   ],
   devServer: {
-    openPage: 'index.html',
+    openPage: '',
     open: true,
-    contentBase: pubPath
+    contentBase: pubPath,
+    historyApiFallback:true
   }
 };

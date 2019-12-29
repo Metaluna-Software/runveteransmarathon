@@ -39,7 +39,7 @@ a:hover {
 .heading-wrapper {
     background-color: #001f3f;
     margin-right: 5vw;
-    padding: 2vw 1.5vw 2vw 2vw;
+    padding: 2vw 1vw 1vw 1vw;
     border-top-right-radius: 1vw;
     border-bottom-right-radius: 1vw;
     display: block;
@@ -47,16 +47,11 @@ a:hover {
 
 .heading-wrapper span {
     font-weight: bold;
-    font-size: 2.8vw;
+    font-size: 2vw;
     color: #ffffff;
 }
 
 .section-wrapper {
-    margin-top: 5px;
-    padding: 0;
-}
-
-.section-content {
     padding: 2% 0;
     position: relative;
     width: 80%;

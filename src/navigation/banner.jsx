@@ -1,7 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import Heading from '../components/heading';
-import SectionImage from "./sectionImage";
+import SectionImage from "../components/sectionImage";
 
 const Banner = (props) => {
     const {
