@@ -22,6 +22,7 @@ class Application extends React.Component {
                 <Banner
                     message={headerText}
                 />
+               
                 <Section
                     title={sectionOneTitle}
                     message={sectionOneMessage}
