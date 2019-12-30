@@ -1,12 +1,17 @@
 import React from 'react';
 import Section from '../components/section';
 import Heading from '../components/heading';
+import PriceTable from '../components/priceTable';
 
-const Marathon = () => {
+const Marathon = (props) => {
+  const {
+    enJson
+  } = props;
     return (
       <div>
-        <Heading message="Marathon"/>
-        <Section message="Parking is available"/>
+        <Heading message={enJson.marathonTitle}/>
+        <Section message={enJson.marathonDetails}/>
+        <PriceTable price={enJson.marathonPrice} title={enJson.marathonPriceTitle} />
       </div>
     );
 };

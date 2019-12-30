@@ -27,8 +27,9 @@
     "@babel/core": "^7.5.5",
     "@babel/preset-env": "^7.5.5",
     "@babel/preset-react": "^7.0.0",
-    "babel-loader": "^8.0.6",
+    "@fortawesome/fontawesome-free": "^5.12.0",
     "babel-eslint": "^10.0.3",
+    "babel-loader": "^8.0.6",
     "clean-webpack-plugin": "^3.0.0",
     "copy-webpack-plugin": "^5.1.1",
     "css-loader": "^3.3.2",
@@ -36,11 +37,11 @@
     "eslint": "^6.7.2",
     "eslint-config-standard": "^14.1.0",
     "eslint-plugin-import": "^2.19.1",
+    "eslint-plugin-jest": "^23.1.1",
     "eslint-plugin-node": "^10.0.0",
     "eslint-plugin-promise": "^4.2.1",
     "eslint-plugin-react": "^7.17.0",
     "eslint-plugin-standard": "^4.0.1",
-    "eslint-plugin-jest": "^23.1.1",
     "html-webpack-plugin": "^3.2.0",
     "prop-types": "^15.7.2",
     "react": "^16.12.0",
@@ -54,7 +55,11 @@
     "webpack-merge": "^4.2.2"
   },
   "dependencies": {
+    "bootstrap": "^4.4.1",
+    "jquery": "^3.4.1",
+    "popper.js": "^1.16.0",
     "react-router-dom": "^5.1.2",
-    "react-router-hash-link": "^1.2.2"
+    "react-router-hash-link": "^1.2.2",
+    "react-table": "^7.0.0-rc.15"
   }
 }

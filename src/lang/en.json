@@ -10,5 +10,26 @@
   "raceDayAwardHeader": "Awards",
   "raceDayAwardBody": "",
   "raceDaySpectatorHeader": "Spectators",
-  "raceDaySpectatorBody": ""
+  "raceDaySpectatorBody": "",
+  "marathonTitle": "Marathon | Nov 7th 2020 | 8:00a",
+  "marathonDetails": "Downtown Columbia City, IN",
+  "marathonPriceTitle": "Marathon",
+  "marathonPrice": [
+    {
+      "date": "January 2020",
+      "price": "$45"
+    },
+    {
+      "date": "Independence Day",
+      "price": "$50"
+    },
+    {
+      "date": "Labor Day",
+      "price": "$60"
+    }
+  ],
+  "halfMarathonTitle": "Half-Marathon - Nov 7th 2020",
+  "halfMarathonDetails": "Downtown Columbia City, IN",
+  "fiveKTitle": "5k - Nov 7th 2020 - Start: 8:15a",
+  "fiveKDetails": "Downtown Columbia City, IN"
 }

@@ -2,11 +2,14 @@ import React from 'react';
 import Section from '../components/section';
 import Heading from '../components/heading';
 
-const HalfMarathon = () => {
+const HalfMarathon = (props) => {
+  const {
+    enJson
+  } = props;
     return (
       <div>
-        <Heading message="Half Marathon"/>
-        <Section message="Parking is available"/>
+        <Heading message={enJson.halfMarathonTitle}/>
+        <Section message={enJson.halfMarathonDetails}/>
       </div>
     );
 };

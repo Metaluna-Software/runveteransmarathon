@@ -6,7 +6,7 @@ import Home from './pages/home';
 import RaceDay from './pages/raceDay';
 import HalfMarathon from './pages/halfMarathon';
 import Marathon from './pages/marathon';
-import FiveK from './pages/5k';
+import FiveK from './pages/fiveK';
 import enData from './lang/en.json'
 
 class Application extends React.Component {
@@ -18,17 +18,17 @@ class Application extends React.Component {
   render() {
     return (
       <Router>
-        <div className='page-layout'>
-          <Navigation/>
+        <Navigation/>
+        <div id='main' role='main'>
           <Switch>
             <Route path="/marathon">
-              <Marathon/>
+              <Marathon enJson={this.enJson()}/>
             </Route>
             <Route path="/halfmarathon">
-              <HalfMarathon/>
+              <HalfMarathon enJson={this.enJson()}/>
             </Route>
-            <Route path="/5k">
-              <FiveK/>
+            <Route path="/fivek">
+              <FiveK enJson={this.enJson()}/>
             </Route>
             <Route path="/raceday">
               <RaceDay enJson={this.enJson()}/>

@@ -2,11 +2,14 @@ import React from 'react';
 import Section from '../components/section';
 import Heading from '../components/heading';
 
-const FiveK = () => {
+const FiveK = (props) => {
+  const {
+    enJson
+  } = props;
     return (
       <div>
-        <Heading message="5k"/>
-        <Section message="Parking is available"/>
+        <Heading message={enJson.fiveKTitle}/>
+        <Section message={enJson.fiveKDetails}/>
       </div>
     );
 };

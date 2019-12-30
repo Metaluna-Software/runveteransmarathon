@@ -8,8 +8,8 @@ const Heading = (props) => {
     } = props;
 
     return (
-        <div className='heading-wrapper' id={id}>
-            <span>{message}</span>
+        <div className='heading-wrapper text-white' id={id}>
+            <h2>{message}</h2>
         </div>
     );
 };
