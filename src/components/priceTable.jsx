@@ -1,85 +1,60 @@
 import React from 'react';
-import PropTypes from 'prop-types';
-import {
-  useTable
-} from 'react-table'
 
-const PriceTable = (props) => {
-    const {
-      title,
-        price
-    } = props;
+class PriceTable extends React.Component {
+  constructor(props) {
+    super(props);
+    this._isMounted = false;
+    this.state = {
+      rows: []
+    }
+  }
 
-  const data = React.useMemo(() => price, []);
+  componentDidMount() {
+    this._isMounted = true;
+    this._isMounted && fetch(this.props.url)
+      .then(r => {
+        return r.json();
+      })
+      .then(data => {
+        let rows = [];
+        let str = data.acf[this.props.priceKey].replace(/<(?:.|\s)*?>/g, '');
+        let strArray = str.split('\r\n');
+        strArray.map(itemStr =>
+          rows.push(itemStr.split('='))
+        );
+        this.setState({ rows: rows });
+      })
+  }
 
-  const columns = React.useMemo(
-    () => [
-      {
-        Header: title,
-        columns: [
-          {
-            Header: 'Date',
-            accessor: 'date',
-          },
-          {
-            Header: 'Price',
-            accessor: 'price',
-          },
-        ],
-      },
-    ],
-    []
-  );
-
+  render() {
     return (
-      <Table columns={columns} data={data} />
-    );
-};
-
-function Table({ columns, data }) {
-  // Use the state and functions returned from useTable to build your UI
-  const {
-    getTableProps,
-    getTableBodyProps,
-    headerGroups,
-    rows,
-    prepareRow,
-  } = useTable({
-    columns,
-    data,
-  });
-
-  // Render the UI for your table
-  return (
-    <table {...getTableProps()} className='price-table'>
-      <thead>
-      {headerGroups.map(headerGroup => (
-        <tr {...headerGroup.getHeaderGroupProps()}>
-          {headerGroup.headers.map(column => (
-            <th {...column.getHeaderProps()}>{column.render('Header')}</th>
-          ))}
-        </tr>
-      ))}
-      </thead>
-      <tbody {...getTableBodyProps()}>
-      {rows.map(
-        (row, i) => {
-          prepareRow(row);
-          return (
-            <tr {...row.getRowProps()}>
-              {row.cells.map(cell => {
-                return <td {...cell.getCellProps()}>{cell.render('Cell')}</td>
-              })}
-            </tr>
+      <div className='section-wrapper'>
+        <h2>Race price</h2>
+        <table className='price-table'>
+          <thead>
+          <tr key={'1'}>
+            {this.props.columns.map((columnHeading, i) => (
+              <th key={i}>{columnHeading}</th>
+            ))}
+          </tr>
+          </thead>
+          <tbody>
+          {this.state.rows.map(
+            (row, i) => {
+              return (
+                <tr key={i}>
+                  {row.map((cell, i) => {
+                    return <td key={i}>{cell}</td>
+                  })}
+                </tr>
+              )
+            }
           )}
-      )}
-      </tbody>
-    </table>
-  )
+          </tbody>
+        </table>
+      </div>
+    );
+  }
 }
-
-PriceTable.propTypes = {
-    price: PropTypes.array.isRequired
-};
 
 export default PriceTable;

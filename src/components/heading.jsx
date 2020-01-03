@@ -9,7 +9,7 @@ const Heading = (props) => {
 
     return (
         <div className='heading-wrapper text-white' id={id}>
-            <h2>{message}</h2>
+            <h3>{message}</h3>
         </div>
     );
 };

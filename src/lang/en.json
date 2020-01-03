@@ -1,35 +1,32 @@
 {
+  "marathonDate": "Nov 7th, 2020",
   "homeBanner": "Veterans Marathon and Heroes 5k",
-  "homeWelcome": "The Bird Family is proud to continue the tradition of the Veterans Marathon, a superb event honoring our nation’s Veterans.\nLocated in the heart of northeast Indiana, Columbia City is a small-town community with true Hoosier values.  It’s a community rooted in its agricultural heritage, strengthened by its commercial and residential development, and proud of its hometown heroes.\nIn honor of those servicemen and servicewomen throughout nation, Running Around screen printing has teamed up with the Columbia City Parks and Recreation Department to present the 12th Annual Veterans Marathon, Half-Marathon and Heroes 5K on November 7, 2020.\nOnly 20 miles west of Fort Wayne on US Highway 30, Columbia City is easy to find, easy to get to, easy to appreciate, and easy to enjoy. We can’t promise the race is easy to run, but we can promise that you’ll have fun.\nCome experience the challenge and excitement of running the Marathon, Half-Marathon or 5K and do so in honor of America’s veterans and heroes. You’ll be glad you did.",
+  "homeWelcomeWP": "https://www.runveteransmarathon.com/wp/wp-json/wp/v2/posts/1",
   "raceDayScheduleHeader": "Schedule of Events",
-  "raceDayScheduleBody": "8:00 - 5k starts\n 8:15 - Half-Marathon starts\n9:00 - Marathon starts\n13:00 - course closes\n13:30 - event closes",
+  "raceDayScheduleWP": "https://www.runveteransmarathon.com/wp/wp-json/wp/v2/posts/19",
   "raceDayParkingHeader": "Parking",
-  "raceDayParkingBody": "",
+  "raceDayParkingWP": "https://www.runveteransmarathon.com/wp/wp-json/wp/v2/posts/17",
   "raceDayPostRaceHeader": "Post Race",
-  "raceDayPostRaceBody": "",
+  "raceDayPostRaceWP": "https://www.runveteransmarathon.com/wp/wp-json/wp/v2/posts/21",
   "raceDayAwardHeader": "Awards",
-  "raceDayAwardBody": "",
+  "raceDayAwardWP": "https://www.runveteransmarathon.com/wp/wp-json/wp/v2/posts/23",
   "raceDaySpectatorHeader": "Spectators",
-  "raceDaySpectatorBody": "",
-  "marathonTitle": "Marathon | Nov 7th 2020 | 8:00a",
-  "marathonDetails": "Downtown Columbia City, IN",
-  "marathonPriceTitle": "Marathon",
-  "marathonPrice": [
-    {
-      "date": "January 2020",
-      "price": "$45"
-    },
-    {
-      "date": "Independence Day",
-      "price": "$50"
-    },
-    {
-      "date": "Labor Day",
-      "price": "$60"
-    }
-  ],
-  "halfMarathonTitle": "Half-Marathon - Nov 7th 2020",
-  "halfMarathonDetails": "Downtown Columbia City, IN",
-  "fiveKTitle": "5k - Nov 7th 2020 - Start: 8:15a",
-  "fiveKDetails": "Downtown Columbia City, IN"
+  "raceDaySpectatorWP": "https://www.runveteransmarathon.com/wp/wp-json/wp/v2/posts/25",
+  "marathonTitle": "Marathon",
+  "marathonDetailsWP": "https://www.runveteransmarathon.com/wp/wp-json/wp/v2/posts/27",
+  "marathonSwagWP": "https://www.runveteransmarathon.com/wp/wp-json/wp/v2/posts/45",
+  "marathonAwardsWP": "https://www.runveteransmarathon.com/wp/wp-json/wp/v2/posts/47",
+  "marathonRecordsWP": "https://www.runveteransmarathon.com/wp/wp-json/wp/v2/posts/49",
+  "halfMarathonTitle": "Half-Marathon",
+  "halfMarathonDetailsWP": "https://www.runveteransmarathon.com/wp/wp-json/wp/v2/posts/32",
+  "halfmarathonSwagWP": "https://www.runveteransmarathon.com/wp/wp-json/wp/v2/posts/51",
+  "halfmarathonAwardsWP": "https://www.runveteransmarathon.com/wp/wp-json/wp/v2/posts/53",
+  "halfmarathonRecordsWP": "https://www.runveteransmarathon.com/wp/wp-json/wp/v2/posts/55",
+  "priceColumns": ["Price change", "Price"],
+  "priceWP": "https://www.runveteransmarathon.com/wp/wp-json/acf/v3/posts/13",
+  "fiveKTitle": "5k",
+  "fiveKDetailsWP": "https://www.runveteransmarathon.com/wp/wp-json/wp/v2/posts/36",
+  "fiveKSwagWP": "https://www.runveteransmarathon.com/wp/wp-json/wp/v2/posts/39",
+  "fiveKAwardsWP": "https://www.runveteransmarathon.com/wp/wp-json/wp/v2/posts/41",
+  "fiveKRecordsWP": "https://www.runveteransmarathon.com/wp/wp-json/wp/v2/posts/43"
 }

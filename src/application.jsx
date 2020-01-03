@@ -12,6 +12,9 @@ import enData from './lang/en.json'
 class Application extends React.Component {
   constructor(props) {
     super(props);
+    this.state = {
+      enJson: JSON.parse(JSON.stringify(enData))
+    };
     this.enJson = () => JSON.parse(JSON.stringify(enData));
   }
 

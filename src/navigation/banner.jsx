@@ -10,7 +10,6 @@ const Banner = (props) => {
 
     return (
         <div className='banner-wrapper'>
-            <Heading message={message}/>
             <SectionImage/>
         </div>
     );

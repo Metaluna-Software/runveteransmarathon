@@ -16,10 +16,16 @@
     left: unset;
 }
 
-.price-table {
-    width: 60%;
-    margin: auto;
-    padding-left: 2%;
+.home-title {
+    color: #001f3f;
+    display: inline;
+}
+.home-title-date {
+    text-align: right;
+    width: 100%;
+}
+.price-table td,th {
+    padding-right: 30px;
 }
 
 .section-image-wrapper {
@@ -48,12 +54,9 @@
 }
 
 .section-wrapper {
-    padding: 2% 0;
-    position: relative;
     width: 80%;
     margin: auto;
 }
-
 svg {
     padding-left: .25vw;
 }
