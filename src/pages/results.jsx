@@ -21,8 +21,7 @@ class Results extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
-      year: '2019',
-      race: null
+      year: '2019'
     };
   }
 
@@ -35,8 +34,8 @@ class Results extends React.Component {
       <div className={'section-wrapper'}>
         <Heading message={'Results'}/>
         <label>Select a year</label>
-        <Select options={yearOptions} onChange={e => this.handleChange('year', e)}/>
-        <ResultType year={this.state.year} race={this.state.race}/>
+        <Select options={yearOptions} defaultValue={yearOptions[0]} onChange={e => this.handleChange('year', e)}/>
+        <ResultType year={this.state.year}/>
       </div>
     );
   }

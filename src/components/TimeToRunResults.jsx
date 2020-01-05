@@ -1,5 +1,5 @@
 import React from 'react';
-import * as d3 from 'd3-fetch'
+import * as d3 from 'd3-fetch';
 import Select from 'react-select';
 import ResultTable from './resultTable';
 
@@ -16,8 +16,9 @@ class TimeToRunResults extends React.Component {
   constructor(props) {
     super(props);
     this._isMounted = false;
-    this._isStale = false;
+    this._isStale = true;
     this.state = {
+      year: props.year,
       race: null,
       rows: [],
       columns: []
@@ -29,6 +30,9 @@ class TimeToRunResults extends React.Component {
   }
 
   componentDidUpdate() {
+    if (this.state.year !== this.props.year) {
+      this._isStale = true;
+    }
     this._isStale && this.updateResultState();
   }
 
