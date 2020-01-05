@@ -20,7 +20,7 @@ const ResultTable = (props) => {
         (row, i) => {
           return (
             <tr key={i}>
-              {Object.keys(row).map( (item, i) => {
+              {Object.keys(row).map((item, i) => {
                 return (
                   <td key={i}>{row[item]}</td>
                 )

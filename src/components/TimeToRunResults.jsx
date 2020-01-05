@@ -1,18 +1,9 @@
 import React from 'react';
 import * as d3 from 'd3-fetch'
-import Select from 'react-select'
+import Select from 'react-select';
 import ResultTable from './resultTable';
 
 const path = require('path');
-
-const yearOptions = [
-  { value: '2017', label: '2017' },
-  { value: '2016', label: '2016' },
-  { value: '2015', label: '2015' },
-  { value: '2014', label: '2014' },
-  { value: '2013', label: '2013' },
-  { value: '2012', label: '2012' }
-];
 
 const raceOptions = [
   { value: 'marathon', label: 'Marathon' },
@@ -27,7 +18,6 @@ class TimeToRunResults extends React.Component {
     this._isMounted = false;
     this._isStale = false;
     this.state = {
-      year: null,
       race: null,
       rows: [],
       columns: []
@@ -42,26 +32,21 @@ class TimeToRunResults extends React.Component {
     this._isStale && this.updateResultState();
   }
 
-  async asyncForEach(array, callback) {
-    await callback(array);
-    // for (let index = 0; index < array.length; index++) {
-    //   await callback(array[index], index, array);
-    // }
-  }
+  handleChange = (name, value) => {
+    this._isStale = true;
+    this.setState({ [name]: value.value });
+  };
 
   async updateResultState() {
-    if (this.state.race === null || this.state.year === null) {
+    if (this.state.race === null || this.props.year === null) {
       this._isStale = false;
       return;
     }
     let rows = [];
     let columns = [];
-
-    await this.asyncForEach(this.state.year, async (num) => {
-      const r = await this.gatherResults(num);
-      rows = r.rows;
-      columns = r.columns;
-    });
+    const r = await this.gatherResults();
+    rows = r.rows;
+    columns = r.columns;
     if (this.state.rows.length !== rows.length) {
       this._isStale = false;
       this.setState({
@@ -72,12 +57,11 @@ class TimeToRunResults extends React.Component {
     }
   };
 
-  async gatherResults(year) {
+  async gatherResults() {
     try {
       if (this._isMounted && this._isStale) {
         const prefix = '../results';
-        const csvPath = path.join(prefix, year.value + '-' + this.state.race.value + '-overall.csv');
-        console.log("gathering");
+        const csvPath = path.join(prefix, this.props.year + '-' + this.state.race + '-overall.csv');
         const r = await d3.csv(csvPath);
         return {
           rows: r,
@@ -93,18 +77,9 @@ class TimeToRunResults extends React.Component {
     }
   }
 
-  handleChange = (name, value) => {
-    if (this._isMounted === true) {
-      this._isStale = true;
-      this.setState({ [name]: value });
-    }
-  };
-
   render() {
     return (
       <div>
-        <label>Select a year</label>
-        <Select options={yearOptions} onChange={e => this.handleChange('year', e)}/>
         <label>Select a race</label>
         <Select options={raceOptions} onChange={e => this.handleChange('race', e)}/>
         <p className={'error-text'}>{this.state.error}</p>
