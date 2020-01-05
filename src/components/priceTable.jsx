@@ -28,7 +28,7 @@ class PriceTable extends React.Component {
 
   render() {
     return (
-      <div className='section-wrapper'>
+      <div>
         <h2>Race price</h2>
         <table className='price-table'>
           <thead>

@@ -1,0 +1,185 @@
+Place,Name,City,Bib No,Age,Gender,Chip Time
+1,Cody White,Fort Wayne IN,193,27,M,16:42.4
+2,Braden Clements,Fort Wayne IN,38,19,M,17:15.0
+3,Sam Keily,Churubusco IN,94,15,M,18:10.1
+4,Logan Fish,Bremen IN,52,17,M,19:14.0
+5,Christopher Zvers,Peru IN,205,50,M,19:18.3
+6,Nathan Mills,Columbia City IN,130,16,M,19:42.4
+7,Austin Hall,Columbia City IN,69,13,M,20:22.2
+8,Carson Ross,IN,159,18,M,20:29.9
+9,Nicholas Mills,Columbia City IN,131,16,M,20:35.5
+10,Joshua Gilbert,IN,59,21,M,20:38.1
+11,Bryce Kolvoord,Churubusco IN,109,14,M,21:04.9
+12,Hidi Gaff,Fort Wayne IN,54,37,F,21:18.0
+13,Noah Price,IN,149,19,M,21:30.0
+14,John Muigai,IN,135,21,M,21:32.8
+15,Josh Baker,Columbia City IN,14,45,M,21:52.3
+16,Ward Moya,Fort Wayne IN,134,54,M,22:30.2
+17,Zachary Pletcher,Columbia City IN,148,13,M,23:00.6
+18,Makayla Mahoney,Plymouth IN,122,16,F,23:04.7
+19,Jason Anderson,IN,11,26,M,23:06.3
+20,Tabby Vermilion,Fort Wayne IN,206,26,F,23:10.3
+21,Timothy Clay,IN,37,21,M,23:12.5
+22,Amanda Schortgen,Columbia City IN,164,28,F,23:19.0
+23,Allissa Peterson,Columbia City IN,147,25,F,23:21.2
+24,Madison Rahschulte,Lawrenceburg IN,152,13,F,23:39.6
+25,Jack Mills,Columbia City IN,129,14,M,23:54.1
+26,Mak Kolvoord,Churubusco IN,110,10,F,24:00.5
+27,Patrick Thieme,Fort Wayne IN,184,25,M,24:16.8
+28,Tung Ngo,IN,138,19,M,24:20.2
+29,Ashtin Lee,Columbia City IN,117,18,M,24:20.4
+30,Lily Kissner,Leo IN,102,15,F,24:24.9
+31,Ashley Anglin,Columbia City IN,12,34,F,24:31.4
+32,Astoria Smith,Churubusco IN,174,10,F,24:32.0
+33,Matt Ackerman,Huntington IN,3,29,M,24:47.0
+34,Lesley Zook,Columbia City IN,203,15,F,24:50.0
+35,Samuel Allebach,Warsaw IN,9,10,M,25:02.4
+36,John Just,IN,90,19,M,25:09.8
+37,Brett Bushroe,Fort Wayne IN,34,37,M,25:20.3
+38,Jaslyn Cook,Columbia City IN,40,16,F,25:20.6
+39,Jaelie Longardner,Churubusco IN,120,11,F,25:25.5
+40,Chance Meador,IN,127,22,M,25:35.9
+41,Sally Kissner,Leo IN,103,13,F,25:44.6
+42,Ella Elias,Churubusco IN,46,10,F,25:52.3
+43,Nadia Rhoades,Columbia City IN,155,12,F,25:54.5
+44,Karina Rubrake,Columbia City IN,160,19,F,25:59.4
+45,Drew Giltner,IN,61,23,M,26:21.7
+46,Lucas Elias,Churubusco IN,47,41,M,26:32.8
+47,Isaac Rinker,IN,157,12,M,26:33.0
+48,Nathan Thomas,Fort Wayne IN,186,35,M,26:54.9
+49,Bernadette Hagris,IN,68,19,F,27:11.5
+50,David Geiger,Churubusco IN,55,56,M,27:30.5
+51,Phoenix Smith,Churubusco IN,175,9,F,27:35.4
+52,Jason Peay,Indianapolis IN,145,30,M,27:42.6
+53,Nathan Shively,Peru IN,170,29,M,27:44.5
+54,Jacob Irwin,Akron IN,79,19,M,27:49.4
+55,Eryn Savieo,Churubusco IN,162,11,F,27:49.5
+56,Stanley Nihart,IN,140,22,M,28:02.1
+57,Ryan Liechty,IN,119,22,M,28:02.8
+58,Nakiya Kessler,IN,96,10,F,28:06.4
+59,Andrew Hurst,IN,78,22,M,28:07.3
+60,Bruce Witzenman,Churubusco IN,196,57,M,28:38.5
+61,Garret Vanualoes,Columbia City IN,209,13,M,28:38.5
+62,Casey Lee,Columbia City IN,118,37,F,28:39.3
+63,Emma Walters,Churubusco IN,188,10,F,28:40.2
+64,Susan Qureshi,Columbia City IN,151,50,F,28:42.1
+65,Lilly Rinker,IN,158,10,F,28:42.7
+66,Mikaella Shull,Fort Wayne IN,173,10,F,28:44.5
+67,Tricia Abbott,Munster IN,1,49,F,28:52.7
+68,Richard Ackerman,Huntington IN,4,64,M,28:54.5
+69,Adam Gerig,Fort Wayne IN,57,32,M,29:01.1
+70,Maggie Wolf,Larwill IN,199,12,F,29:09.4
+71,Parker Baker,Columbia City IN,16,13,M,29:12.0
+72,Eva Refeld,,208,12,F,29:15.6
+73,Isis Bohde,Churubusco IN,25,11,F,29:16.3
+74,Ben Johnson,Huntertown IN,82,56,M,29:16.9
+75,Kayleigh O'Hair,Fort Wayne IN,142,10,F,29:21.6
+76,Dave Thieme,Fort Wayne IN,183,52,M,29:24.6
+77,Richard Brown,Columbia City IN,29,54,M,29:44.6
+78,Sherry Brown,Columbia City IN,30,43,F,30:00.8
+79,Sarah Thieme,Fort Wayne IN,185,21,F,30:13.0
+80,Elias Kinsey,Warsaw IN,100,7,M,30:17.2
+81,Holly Schrader,Columbia City IN,165,43,F,30:19.4
+82,David Walberg,Fort Wayne IN,187,71,M,30:23.8
+83,Madelon Martinez,Fort Wayne IN,124,33,F,30:42.8
+84,Marvin Sorg,Fort Wayne IN,177,63,M,31:12.1
+85,Skylar Payton,Warsaw IN,143,13,F,31:27.3
+86,Kylah Ewing,Columbia City IN,49,27,F,31:48.6
+87,Nicole Kann,Etna Green IN,91,43,F,31:59.8
+88,Caitlin Dumser,Fort Wayne IN,44,18,F,32:32.8
+89,Trevin Geiger,Churubusco IN,56,27,M,32:38.0
+90,Patty Schmidt,Churubusco IN,163,56,F,32:39.6
+91,Blayre Schultz,Munster IN,166,31,F,33:23.4
+92,Adelyn Albanese,Antioch IL,5,9,F,33:23.6
+93,Ryan Cotner,Warsaw IN,41,32,M,33:32.5
+94,Amelia Reed,IN,153,10,F,33:37.1
+95,Katrina McNeil,Clawson MI,126,32,F,33:37.8
+96,Katy Dreibelbis,Churubusco IN,43,10,F,33:49.0
+97,Ed Frey,Fort Wayne IN,53,71,M,33:49.8
+98,John Wright,Columbia City IN,200,45,M,34:01.1
+99,Josiah Kline,Columbia City IN,105,7,M,34:02.2
+100,Michael Peters,IN,146,19,M,34:10.5
+101,Dawn Grimm,Berne IN,64,40,F,34:17.7
+102,Steve Butler Sr.,Fort Wayne IN,36,71,M,34:38.8
+103,Julia Baker,Fort Wayne IN,15,31,F,35:41.3
+104,Diane Ackerman,Huntington IN,2,56,F,35:57.3
+105,Jackie McMillan,South Whitley IN,125,41,F,35:58.7
+106,Jay Sweatland,Warsaw IN,181,50,M,36:03.7
+107,Amanda Taylor,Columbia City IN,182,40,F,36:14.0
+108,Betty Nelson,Columbia City IN,137,71,F,36:40.0
+109,Amanda Shively,Peru IN,169,30,F,36:55.1
+110,Julie Aldrich,Reynoldsburg OH,8,38,F,37:09.0
+111,Amalia Bulmahn,Churubusco IN,32,10,F,37:16.9
+112,Ed Kutch,Decatur IN,111,27,M,38:04.8
+113,Erika Waugh,Decatur IN,191,25,F,38:04.9
+114,Vickie Kemerly,Avilla IN,95,49,F,38:11.7
+115,Greg Miller,Columbia City IN,128,21,M,38:12.0
+116,Kevin Johnston,West Lafayette IN,84,59,M,38:17.3
+117,Kelly Landis,Churubusco IN,113,57,F,38:17.4
+118,Cindy Zollinger,Columbia City IN,202,61,F,38:27.1
+119,Crystal Herendeen,Albion IN,73,50,F,38:29.4
+120,Diane M. Kimmel,Columbia City IN,121,62,F,38:53.0
+121,Robert Kimmel,Columbia City IN,97,63,M,38:53.0
+122,Miriam Kline,Columbia City IN,106,12,F,39:54.0
+123,Casey Peay,Indianapolis IN,144,29,F,40:08.6
+124,Megan Gerig,Fort Wayne IN,58,26,F,40:08.7
+125,Bonnie Johnson,Huntertown IN,83,56,F,40:13.5
+126,Christine Fairchild,Wolflake IN,50,56,F,40:15.5
+127,Oliver Kline,Columbia City IN,107,11,M,40:16.1
+128,Heather Banks,Columbia City IN,18,43,F,40:17.9
+129,Robert King,Greenwood IN,99,51,M,40:48.1
+130,Ann Kline,Columbia City IN,104,39,F,41:11.1
+131,Tammy Enders,Warsaw IN,48,53,F,41:38.2
+132,Susan Grossman,Claypool IN,67,47,F,41:38.3
+133,Martha Rubrake,Columbia City IN,161,50,F,41:49.5
+134,Heather Riggle,Fort Wayne IN,156,33,F,41:49.8
+135,Steve Kline,Columbia City IN,108,47,M,42:35.0
+136,Sean Ambrose,Columbia City IN,10,46,M,44:01.1
+137,Sydnee De Jong,Dyer IN,42,27,F,44:52.2
+138,Brailyn Albanese,Antioch IL,6,7,F,44:52.3
+139,Cailyn Albanese,Antioch IL,7,7,F,44:52.6
+140,Kim Harding,Fort Wayne IN,70,46,F,44:54.9
+141,Chuck Karrick,Fort Wayne IN,92,64,M,45:14.7
+142,Allyson Lamb,Fort Wayne IN,112,35,F,45:31.3
+143,Mattie Snow,Columbia City IN,176,61,F,45:35.9
+144,Brandon Wolf,Fort Wayne IN,197,13,M,45:39.6
+145,Venita Lawyer,Fort Wayne IN,115,52,F,46:02.4
+146,Theresa Lawyer,Wabash IN,114,77,F,46:03.3
+147,Kim Wolf,Fort Wayne IN,198,46,F,46:47.8
+148,Bobbi Muncy,Fort Wayne IN,136,57,F,47:31.8
+149,Chris Warrix,Columbia City IN,189,41,M,48:09.4
+150,Gary Bird,Columbia City IN,207,60,M,48:32.2
+151,Tina Bell,Huntington IN,22,56,F,49:23.9
+152,Angela Juday,Fort Wayne IN,89,48,F,49:24.0
+153,Amanda Gondell,Huntertown IN,62,28,F,50:12.6
+154,Jessica Gondell,Huntertown IN,63,25,F,50:12.6
+155,Cassie Jones,Columbia City IN,85,23,F,50:38.0
+156,Todd Jones,Columbia City IN,88,56,M,50:38.1
+157,Tara Cochran,Columbia City IN,39,45,F,51:17.9
+158,Michelle Warrix,Columbia City IN,190,40,F,51:28.1
+159,Breyanna Barger,Columbia City IN,20,15,F,51:28.2
+160,Karen Wenger,Muncie IN,192,66,F,51:52.4
+161,Al Smith,Muncie IN,769,70,M,51:52.8
+162,Twyla Hunter,Columbia City IN,77,58,F,53:00.8
+163,Jeremy Brice,Columbia City IN,26,28,M,54:40.5
+164,Melissa Brice,Columbia City IN,27,28,F,54:40.9
+165,Rhonda Jones,Columbia City IN,87,54,F,54:55.5
+166,Peggy Zook,Columbia City IN,204,52,F,54:56.2
+167,Amy Jenkins,Ossian IN,81,46,F,55:49.3
+168,Robert Nunez,Muncie IN,141,53,M,55:49.9
+169,Jonathan Wyatt,Montpelier IN,201,76,M,55:58.0
+170,Margaret Bell,Montpelier IN,21,62,F,55:58.1
+171,Benita Browning,Fort Wayne IN,31,59,F,55:59.1
+172,Marshall Brown,Fort Wayne IN,28,65,F,56:00.3
+173,Richard Schuman,Columbia City IN,167,84,M,56:04.7
+174,Peyton Banks,Columbia City IN,19,22,F,56:11.7
+175,Bryce Banks,Columbia City IN,17,17,F,56:11.9
+176,Elizabeth Gross,Columbia City IN,66,26,F,59:07.9
+177,Greg Bennett,Albion IN,23,59,M,59:08.3
+178,Benjamin Williams,Rochester IN,194,9,M,00:18.6
+179,Jim Shuff,Fort Wayne IN,171,75,M,00:20.5
+180,Paul Williams Jr,Rochester IN,195,39,M,00:21.8
+181,Della Kirkman,Fort Wayne IN,101,45,F,03:45.0
+182,Ruth Gilbert,Fort Wayne IN,60,47,F,03:45.2
+183,Jan Karrick,Fort Wayne IN,93,64,F,14:34.2
+184,Mary Shuff,Fort Wayne IN,172,73,F,14:34.2

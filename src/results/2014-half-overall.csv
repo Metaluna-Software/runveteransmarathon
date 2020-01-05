@@ -1,0 +1,305 @@
+Place,Name,City,Bib No,Age,Gender,Chip Time,Gun Time
+1,Chad Norton,Walled Lake MI,696,22,M,1:17:07.55,1:17:07.55
+2,Mark Davidhizar,Elkhart IN,544,33,M,1:23:22.24,1:23:22.24
+3,Robert Peck,Fort Wayne IN,703,16,M,1:23:33.95,1:23:36.22
+4,Austin Schnelker,Fort Wayne IN,728,16,M,1:24:58.45,1:25:00.43
+5,Blake Jones,Fort Wayne IN,618,21,M,1:25:20.23,1:25:21.46
+6,Braden Tankersley,Winamac IN,770,15,M,1:26:17.82,1:26:17.82
+7,Scott Smyth,Warsaw IN,167,22,M,1:27:37.26,1:27:37.26
+8,Toby Taylor,Fort Wayne IN,774,17,M,1:27:56.99,1:28:00.31
+9,Brad Altevogt,Fort Wayne IN,505,59,M,1:29:53.41,1:29:54.53
+10,Alex Stine,Fort Wayne IN,760,18,M,1:29:56.38,1:29:58.47
+11,Gwendolyn Leininger,Fort Wayne IN,642,28,F,1:30:06.66,1:30:09.43
+12,Jason Robertson,Fort Wayne IN,720,36,M,1:30:35.63,1:30:38.95
+13,Shane Ashby,Fort Wayne IN,509,18,M,1:35:43.53,1:35:47.26
+14,Jon Lovett,Fort Wayne IN,647,41,M,1:36:21.89,1:36:30.40
+15,Adam Schlemmer,Goshen IN,726,52,M,1:36:30.45,1:36:33.59
+16,Matt Kelley,Fort Wayne IN,623,40,M,1:36:31.55,1:36:39.55
+17,Bob Copeland,Plainfield IN,541,56,M,1:37:41.08,1:37:46.38
+18,Roger Wilson,Fort Wayne IN,795,61,M,1:38:09.69,1:38:09.69
+19,Sara George,Dayton OH,578,27,F,1:38:13.37,1:38:19.23
+20,Ronald Papke,Utica MI,701,55,M,1:38:27.52,1:38:31.68
+21,Bryan Noble,Brooklyn MI,694,57,M,1:38:44.26,1:38:45.80
+22,Matt Mang,Fort Wayne IN,654,42,M,1:39:13.53,1:39:17.06
+23,Tricia McClain,Altoona IA,663,58,F,1:39:45.81,1:39:50.22
+24,Joshua Scott,Winamac IN,732,16,M,1:40:02.72,1:40:05.28
+25,Jaydyn Scott,Winamac IN,730,17,F,1:40:03.73,1:40:06.28
+26,Todd Schlegel,Fort Wayne IN,725,15,M,1:40:13.47,1:40:16.96
+27,Andrew Staroska,Piqua OH,753,24,M,1:40:27.28,1:40:30.53
+28,Jeremy Rentz,Angola IN,713,37,M,1:40:38.51,1:40:42.51
+29,Karl Johnson,Warsaw IN,616,24,M,1:40:38.76,1:40:44.76
+30,Bryan Gross,Fort Wayne IN,592,57,M,1:40:42.29,1:40:45.71
+31,Jacob Gibbs,Ottawa Lake MI,579,16,M,1:41:00.22,1:41:17.24
+32,Ben Kreider,Alma MI,633,29,M,1:41:33.37,1:41:59.84
+33,Gregg Miller,Grand Rapids MI,122,64,M,1:42:14.30,1:42:20.24
+34,Doug Camp,Garrett IN,534,44,M,1:42:20.08,1:42:25.58
+35,George Nietert,Valparaiso IN,692,61,M,1:42:38.97,1:42:40.42
+36,Clint Phares,Albion IN,706,36,M,1:42:51.14,1:43:05.07
+37,Shane Hillman,Gas City IN,1188,46,M,1:43:07.91,1:43:13.47
+38,Jon Olsen,Auburn IN,698,44,M,1:43:33.38,1:43:39.33
+39,Nick Adams,Fort Wayne IN,501,18,M,1:43:34.97,1:43:51.74
+40,Jeff Scott,Winamac IN,731,53,M,1:43:52.29,1:43:54.98
+41,Ryan Dunham,Westville OH,554,13,M,1:44:08.42,1:44:11.56
+42,Cindy McGovern,Fort Wayne IN,666,50,F,1:44:35.02,1:44:39.75
+43,Brandon Landes,Indianapolis IN,638,26,M,1:44:42.72,1:44:47.14
+44,Maureen Gibbs,Indianapolis IN,580,25,F,1:45:33.37,1:45:50.04
+45,Kenneth Lynch,Corunna IN,651,50,M,1:45:32.32,1:45:54.72
+46,Derek Leininger,Fort Wayne IN,641,30,M,1:45:54.45,1:45:58.32
+47,Logan Worsham,Huntington IN,499,18,M,1:46:24.19,1:46:30.60
+48,Ashtyn Robertson,Fort Wayne IN,719,14,F,1:46:34.45,1:46:44.63
+49,Danita Keirn,Warsaw IN,622,44,F,1:46:47.03,1:46:48.96
+50,Logan Fish,Bremen IN,568,14,M,1:46:42.84,1:46:53.00
+51,Logan Bowling,Fort Wayne IN,525,18,M,1:47:02.66,1:47:06.08
+52,Wesley Hare,Columbia City IN,597,26,M,1:46:46.17,1:47:07.82
+53,Kirk Robinson,Akron IN,721,55,M,1:47:19.38,1:47:25.32
+54,Kris Teusch,Huntington IN,775,47,F,1:47:11.56,1:47:25.66
+55,Michael Newell,Warsaw IN,687,58,M,1:47:29.30,1:47:47.63
+56,Nathan Kreider,Columbia City IN,634,29,M,1:47:39.04,1:48:05.84
+57,Whitney Munn,Goshen IN,684,25,F,1:48:09.84,1:48:22.73
+58,Aaron Springer,Fort Wayne IN,752,34,M,1:48:22.56,1:48:28.82
+59,Joe Beier,Fort Wayne IN,515,50,M,1:48:33.43,1:48:38.96
+60,Steve Gorsuch,Mishawaka IN,585,61,M,1:48:39.91,1:48:42.19
+61,Trevor Maggart,Huntington IN,653,21,M,1:48:34.76,1:48:52.90
+62,Kent Eilers,Huntington IN,555,39,M,1:48:34.77,1:48:52.99
+63,Mike Lubbers,Kalamazoo MI,648,41,M,1:48:34.33,1:48:53.05
+64,Karen Kosberg,Fort Wayne IN,631,53,F,1:48:40.41,1:48:54.97
+65,Amanda Hernandez,Fort Wayne IN,606,34,F,1:48:58.67,1:49:12.80
+66,Nichole Park,Fort Wayne IN,702,35,F,1:48:59.44,1:49:12.89
+67,Benjamin Shappell,Leo IN,737,37,M,1:49:17.42,1:49:28.02
+68,Carrie Shappell,Leo IN,738,35,F,1:49:43.15,1:49:53.69
+69,Len Fish,Bremen IN,567,45,M,1:49:46.78,1:49:56.59
+70,Damian Ruesink,Three Rivers MI,154,39,M,1:49:49.61,1:50:02.15
+71,Brandon Lemberg,Fort Wayne IN,643,29,M,1:50:11.08,1:50:26.56
+72,Ashley Anglin,Fort Wayne IN,508,31,F,1:50:36.20,1:50:41.10
+73,Ashley Sweazey,Fort Wayne IN,767,29,F,1:51:07.34,1:51:12.82
+74,John Zuk,Columbia City IN,500,45,M,1:51:14.57,1:51:16.41
+75,Stephanie Breeding,Roanoke IN,1220,31,F,1:51:36.24,1:51:43.36
+76,Chris Dahlberg,Fort Wayne IN,543,36,M,1:51:35.54,1:51:45.13
+77,Paresh Mishra,Fort Wayne IN,680,39,M,1:52:19.25,1:52:23.38
+78,Josh Snyder,Fort Wayne IN,749,35,M,1:52:08.44,1:52:31.08
+79,Carla Mayer,Brownsburg IN,659,45,F,1:53:14.29,1:53:21.76
+80,Arya Jayatilaka,Kalamazoo MI,614,55,M,1:54:01.63,1:54:08.11
+81,Kimberly Harringer,Elkhart IN,598,39,F,1:54:17.75,1:54:29.44
+82,Kristine Norton,Warsaw IN,697,34,F,1:54:51.81,1:55:03.05
+83,Matthew Gunia,Niles IL,593,37,M,1:54:50.09,1:55:05.38
+84,Heidi Shade,Whitehouse OH,736,44,F,1:55:12.93,1:55:18.29
+85,Tyler Reese,Paulding OH,711,26,M,1:55:03.06,1:55:26.20
+86,Teri Read,Goshen IN,710,30,F,1:55:22.07,1:55:29.40
+87,Mike Clendenen,New Haven IN,540,59,M,1:55:23.41,1:55:29.42
+88,Katie Loesch,Fort Wayne IN,646,44,F,1:55:38.42,1:55:45.07
+89,Thanh Clark,Carmel IN,539,50,F,1:55:33.27,1:55:45.45
+90,Gene Donaghy,Ossian IN,550,59,M,1:56:17.54,1:56:33.23
+91,Jared Newhard,Fort Wayne IN,688,42,M,1:56:33.47,1:56:42.31
+92,Sam Gillie,Fort Wayne IN,582,44,M,1:56:24.31,1:56:44.74
+93,Peg Krecker,Madison WI,632,51,F,1:56:43.24,1:56:57.13
+94,Kim Swain,Columbia City IN,764,44,F,1:57:41.49,1:57:48.57
+95,Aaron Klooze,Fort Wayne IN,628,45,M,1:57:44.09,1:57:53.26
+96,Jeremiah Kill,Monroeville IN,625,40,M,1:57:44.54,1:57:56.37
+97,Scott Elliott,Columbia City IN,556,41,M,1:58:23.36,1:58:33.91
+98,Staci Beiswanger,South Whitley IN,517,49,F,1:58:31.32,1:58:39.78
+99,David Geiger,Churubusco IN,577,53,M,1:58:41.79,1:58:52.73
+100,Michael Curdelli,Fort Wayne IN,542,42,M,1:58:39.78,1:59:00.59
+101,Pj Thuringer,Fort Wayne IN,777,42,M,1:58:42.02,1:59:05.28
+102,Baily Beiswanger,South Whitley IN,516,22,F,1:59:00.96,1:59:09.29
+103,Kristine Olson,Okemos MI,699,44,F,1:59:04.24,1:59:16.53
+104,Brian Bills,Columbia City IN,522,50,M,1:59:13.08,1:59:22.07
+105,Mary Jo Branco,Warsaw IN,527,51,F,1:59:34.93,1:59:41.16
+106,Nicholas Brandt,Churubusco IN,528,41,M,1:59:33.63,1:59:47.35
+107,Maureen Randall,Fort Wayne IN,1216,38,F,2:00:05.03,2:00:11.26
+108,Dorothee Whitaker,Pierceton IN,791,47,F,2:00:13.53,2:00:24.81
+109,Susan Potter,Warsaw IN,707,35,F,2:00:31.50,2:00:45.22
+110,Ron Mee,South Bend IN,672,49,M,2:00:42.87,2:00:52.75
+111,Ashley Galentine,Fort Wayne IN,573,32,F,2:00:52.59,2:01:00.43
+112,Jeff Arnold,Fort Wayne IN,1206,44,M,2:01:00.23,2:01:10.23
+113,Mark Spencer,Ann Arbor MI,751,52,M,2:01:11.89,2:01:26.37
+114,Heath Trampe,Fort Wayne IN,779,32,M,2:00:33.92,2:01:54.61
+115,Brandon Koble,Fort Wayne IN,629,32,M,2:01:50.25,2:01:54.62
+116,Joe Griner,North Webster IN,591,49,M,2:01:53.25,2:02:05.38
+117,Jeff Beck,Columbia City IN,514,49,M,2:02:02.90,2:02:16.15
+118,Douglas Fahl,Columbia City IN,563,47,M,2:02:10.79,2:02:20.77
+119,Karina Rubrake,Columbia City IN,722,16,F,2:02:55.97,2:02:57.52
+120,Kim Mishler,New Paris IN,679,41,F,2:02:46.98,2:02:58.49
+121,Christian Perez,Elkhart IN,497,31,M,2:02:31.97,2:02:59.68
+122,Arielle Hinen,Columbia City IN,609,21,F,2:03:18.11,2:03:29.76
+123,Phil Allen,Wawaka IN,504,51,M,2:03:47.45,2:04:03.17
+124,Amanda Treharn,Fort Wayne IN,780,33,F,2:04:08.36,2:04:17.31
+125,Dan McCrady,Fort Wayne IN,664,48,M,2:04:10.99,2:04:22.26
+126,Scott Sweet,Carmel IN,768,46,M,2:04:05.22,2:04:49.63
+127,Amy Korus,Columbia City IN,630,42,F,2:04:40.52,2:04:53.66
+128,Troy Karrick,Angola IN,86,38,M,2:04:37.39,2:05:02.05
+129,Andy McGrail,Jones MI,117,54,M,2:05:17.77,2:05:22.05
+130,Timothy Beachy,Columbia City IN,511,53,M,2:05:02.82,2:05:30.08
+131,Adam Schmitt,Columbia City IN,727,35,M,2:05:27.40,2:05:32.09
+132,Wendy Fairchild,Warsaw IN,565,48,F,2:06:13.21,2:06:29.39
+133,Vanessa Bills,Columbia City IN,523,48,F,2:06:51.72,2:07:00.75
+134,Matthew Burnett,Tecumseh MI,532,36,M,2:07:06.38,2:07:18.19
+135,Marcia Kirlin,Fort Wayne IN,627,58,F,2:07:05.95,2:07:24.97
+136,Tori Martinkovic,Fort Wayne IN,655,16,F,2:07:25.75,2:07:36.56
+137,Todd Ernsberger,Fort Wayne IN,560,46,M,2:07:20.58,2:07:36.65
+138,James Kyle,Valparaiso IN,102,50,M,2:07:52.72,2:08:11.97
+139,Kari McNamara,Huntertown IN,670,43,F,2:08:20.38,2:08:29.77
+140,Ron Zartman,Fort Wayne IN,1207,58,M,2:08:18.99,2:08:29.85
+141,John Knight,Warsaw IN,1200,45,M,2:08:40.73,2:08:46.96
+142,Isabel Hunter,Columbia City IN,493,14,F,2:09:09.53,2:09:11.16
+143,Casey Lee,Columbia City IN,639,34,F,2:09:04.64,2:09:12.41
+144,Justin Wall,Huntington IN,784,37,M,2:09:11.56,2:09:33.21
+145,Susan Qureshi,Columbia City IN,498,47,F,2:09:30.18,2:09:37.84
+146,Tona Walter,South Whitley IN,785,49,F,2:09:43.41,2:09:50.74
+147,Julie Hartzler,Syracuse IN,600,42,F,2:09:41.70,2:09:55.28
+148,John Derheimer,Greensburg IN,492,71,M,2:09:30.96,2:09:55.69
+149,Stacy Erickson,Fort Wayne IN,559,37,F,2:09:42.91,2:09:56.72
+150,Jodie Swaney,Leo IN,766,37,F,2:09:42.49,2:09:57.61
+151,Elizabeth Bear,Columbia City IN,512,33,F,2:10:00.51,2:10:02.56
+152,Dyna Fisher,Colon MI,569,45,F,2:10:29.11,2:10:34.34
+153,Craig Kinnear,South Bend IN,626,30,M,2:10:23.06,2:10:36.28
+154,Jenna Erickson,Lake Bluff IL,558,30,F,2:10:23.07,2:10:36.38
+155,Arden Robertson,Fort Wayne IN,718,37,F,2:10:32.07,2:10:42.64
+156,Bill Harris,Grabill IN,599,76,M,2:10:46.48,2:10:51.88
+157,Melinda Kammerer Petek,Huntington IN,620,33,F,2:11:10.81,2:11:30.37
+158,Joshua Nix,Fort Wayne IN,693,34,M,2:11:18.89,2:11:34.06
+159,Anne Devine,Fort Wayne IN,548,46,F,2:11:27.16,2:11:34.32
+160,Mandy Roberts,Garrett IN,717,36,F,2:11:15.19,2:11:42.77
+161,Sarah Teagve,South Bend IN,1187,28,F,2:12:01.06,2:12:15.17
+162,Michelle Bemis,Southgate MI,491,35,F,2:12:37.70,2:12:49.30
+163,Paula Bermont,Chicago IL,520,51,F,2:12:44.05,2:12:50.27
+164,Amanda Dennis,Fort Wayne IN,546,39,F,2:12:38.48,2:12:57.60
+165,Laurie Miner,Columbia City IN,678,43,F,2:13:14.52,2:13:39.00
+166,Jeff Van Demark,Perrysburg OH,781,54,M,2:13:15.06,2:13:43.18
+167,Maria Zaborniak,Ann Arbor MI,799,52,F,2:13:29.53,2:13:43.71
+168,Rachel Chase,Columbia City IN,537,27,F,2:13:34.95,2:14:02.63
+169,Nick Kurtaneck,Warsaw IN,637,18,M,2:14:13.21,2:14:32.91
+170,Marty Swenson,Chicago IL,769,52,F,2:14:18.66,2:14:38.49
+171,Loren McCrady,Fort Wayne IN,665,17,F,2:14:37.47,2:14:48.25
+172,Tracy Smallwood,Fort Wayne IN,745,46,F,2:14:41.72,2:14:54.26
+173,Lisa Reighter,Fort Wayne IN,712,37,F,2:14:42.09,2:14:54.53
+174,Douglas Dye,Woodburn IN,1213,48,M,2:14:50.18,2:15:14.69
+175,Nancy Camarota,Perrysburg OH,533,54,F,2:15:11.41,2:15:39.33
+176,Jennifer Metcalf,Plymouth IN,674,42,F,2:15:44.67,2:15:59.51
+177,Alicia Williams,Fort Wayne IN,792,27,F,2:15:59.78,2:16:13.62
+178,Derek See,Warsaw IN,733,32,M,2:15:57.69,2:16:18.84
+179,Breanne Hoffman,Roanoke IN,612,24,F,2:16:23.34,2:16:31.32
+180,Stephen Adkison,Fort Wayne IN,502,70,M,2:16:26.77,2:16:43.13
+181,Michael Thena,Fort Wayne IN,776,43,M,2:17:13.31,2:17:27.14
+182,Rodney Ewing,Columbia City IN,562,48,M,2:17:06.17,2:17:28.77
+183,Mike Lewis,Huntington IN,645,54,M,2:18:01.89,2:18:12.86
+184,Heather Wilburn,Huntington IN,1212,27,F,2:18:02.41,2:18:12.95
+185,Mandy Miller,Goshen IN,675,38,F,2:18:03.99,2:18:15.18
+186,Tim Griffin,South Bend IN,589,57,M,2:18:07.89,2:18:33.20
+187,Carlye Snider,Warsaw IN,748,24,F,2:18:24.67,2:18:40.08
+188,Michael Krieg,Harlan IN,636,43,M,2:18:25.61,2:18:47.59
+189,Edward Beber,Fort Wayne IN,513,31,M,2:19:22.23,2:19:41.30
+190,Jeremy Brice,Columbia City IN,529,25,M,2:19:25.48,2:19:41.36
+191,Annette Morton,Fort Wayne IN,683,45,F,2:19:44.18,2:19:55.72
+192,Amanda Taylor,Columbia City IN,772,37,F,2:19:44.97,2:20:00.46
+193,Jill Freed,Fort Wayne IN,572,37,F,2:19:45.75,2:20:12.96
+194,Jami Rosenbaum,Muncie IN,1204,43,F,2:19:54.61,2:20:14.14
+195,Jessica Hancock,Fort Wayne IN,596,34,F,2:20:31.14,2:20:48.41
+196,Christina McArdle,Fort Wayne IN,661,40,F,2:21:08.59,2:21:20.04
+197,Jennifer Moeller,Fort Wayne IN,494,28,F,2:21:06.26,2:21:23.32
+198,Karen Gillie,Fort Wayne IN,581,43,F,2:21:06.56,2:21:25.88
+199,Mary McArdle,New Haven IN,662,58,F,2:21:04.26,2:21:26.26
+200,April Birts,Fort Wayne IN,524,33,F,2:21:24.19,2:21:34.30
+201,Jenny Sanders,Fort Wayne IN,723,60,F,2:21:23.07,2:21:42.26
+202,Jim Read,Goshen IN,709,32,M,2:21:50.45,2:21:57.49
+203,Riley Dunham,Westville OH,552,12,M,2:22:38.82,2:22:41.80
+204,Elizabeth Taylor,Warsaw IN,773,42,F,2:22:40.73,2:23:07.75
+205,Shannon Nierman,Fort Wayne IN,691,43,M,2:23:37.75,2:24:05.10
+206,Randy Vanderford,Columbia City IN,783,55,M,2:23:37.43,2:24:05.33
+207,Rosey Dunham,Westville OH,553,7,F,2:24:54.15,2:24:58.14
+208,Gary Straquadine,Columbus OH,761,58,M,2:24:45.36,2:24:58.56
+209,Brett Henderson,Westville OH,604,39,M,2:24:56.09,2:24:59.59
+210,Heather Walters,Columbia City IN,786,23,F,2:25:26.79,2:25:55.94
+211,Timothy Grable,Columbia City IN,586,15,M,2:25:57.41,2:26:04.80
+212,Tracy Weigel,Columbia City IN,788,48,F,2:25:58.21,2:26:13.84
+213,Roger Bentley,Coloma MI,518,64,M,2:25:55.23,2:26:16.29
+214,Matt Miller,Goshen IN,676,35,M,2:26:37.22,2:26:48.95
+215,Nikole Miller,Fort Wayne IN,677,40,F,2:26:44.55,2:26:55.94
+216,Tim Stauffer,Fort Wayne IN,755,36,M,2:26:48.18,2:27:04.30
+217,Sarah Billman,Jackson OH,521,24,F,2:27:06.54,2:27:26.38
+218,Lauren Frederick,Winona Lake IN,571,23,F,2:27:06.32,2:27:26.66
+219,Kylah Ewing,Columbia City IN,561,24,F,2:27:49.58,2:28:11.96
+220,Tim Richards,Leo IN,1208,48,M,2:28:13.41,2:28:37.43
+221,Christine Stump,Mishawaka IN,762,50,F,2:28:30.47,2:28:41.31
+222,Karlye Whaley,Fort Wayne IN,790,34,F,2:28:28.88,2:28:41.97
+223,Cheryl Shaw,Fort Wayne IN,739,46,F,2:28:29.07,2:28:42.14
+224,Paul Bercot,Fort Wayne IN,519,31,M,2:28:35.74,2:28:46.93
+225,Nicole Setser,Fort Wayne IN,735,36,F,2:28:35.74,2:28:47.17
+226,Bruce McNamara,Huntertown IN,669,46,M,2:28:47.86,2:28:58.47
+227,Terry Powers,Winona Lake IN,708,51,F,2:28:51.18,2:29:08.21
+228,Shelley Snyder,Antwerp OH,750,34,F,2:29:07.60,2:29:24.83
+229,Kiersten Smith,Warsaw IN,489,18,F,2:29:06.46,2:29:25.37
+230,Brenda Allbritten,Warsaw IN,503,50,F,2:29:32.59,2:29:57.44
+231,Jeremy Gardner,Swayzee IN,574,37,M,2:29:55.03,2:30:18.43
+232,Angela Morrow,Marion IN,496,30,F,2:29:54.97,2:30:18.63
+233,Stephen Henderson,Saint Paris OH,605,72,M,2:30:06.10,2:30:21.22
+234,John Kauffman,Monroeville IN,621,48,M,2:30:14.84,2:30:29.04
+235,Jennifer McKeever,Hastings MI,667,43,F,2:31:53.08,2:32:01.45
+236,Kelli Newberry,Hastings MI,686,41,F,2:31:53.15,2:32:01.62
+237,David Deventer,Laotto IN,547,47,M,2:32:12.55,2:32:28.89
+238,Ryan See,Warsaw IN,734,37,M,2:34:48.02,2:35:09.70
+239,Walter Shelly,Indianapolis IN,740,54,M,2:36:18.51,2:36:42.18
+240,Robert Staroska,Piqua OH,754,56,M,2:37:12.42,2:37:23.33
+241,Sarah Leonard,Fort Wayne IN,644,57,F,2:37:16.21,2:37:36.51
+242,John Moeller,Fort Wayne IN,495,30,M,2:37:56.93,2:38:13.21
+243,Allison Leer,Carmel IN,640,52,F,2:37:57.13,2:38:17.75
+244,Carol Willis,Cincinnati OH,794,63,F,2:38:16.80,2:38:37.62
+245,Christie Ruesink,Three Rivers MI,153,39,F,2:38:15.74,2:38:38.62
+246,Steven Vandekeere,Nappanee IN,782,32,M,2:38:53.07,2:39:21.56
+247,Deron Heller,Bremen IN,602,39,M,2:38:53.00,2:39:21.65
+248,Amy Weinstein,Middleville MI,789,46,F,2:39:59.57,2:40:15.08
+249,Susan Skelton,Avon IN,743,49,F,2:41:27.17,2:41:47.10
+250,Angela Ritchey,Michigan City IN,716,37,F,2:42:34.11,2:42:50.31
+251,Rachel Browing,Muncie IN,1205,36,F,2:43:18.05,2:43:37.93
+252,Jacqui Carroll,Fort Wayne IN,535,53,F,2:43:33.37,2:43:51.89
+253,Joshua Moffett,Westfield IN,681,33,M,2:43:51.28,2:44:13.99
+254,Emily Doehring,Griffith IN,549,48,F,2:44:26.01,2:44:44.83
+255,Betsy Naseman,Sidney OH,685,31,F,2:44:47.27,2:45:10.06
+256,Sara Yanner,Fort Wayne IN,798,32,F,2:44:59.45,2:45:14.22
+257,Jenna Ayres,Bloomington IN,510,25,F,2:46:18.28,2:46:42.09
+258,Jill Slagel,Huntington IN,163,48,F,2:46:28.61,2:46:56.68
+259,Dominic Gagliardi,Hobart IN,56,44,M,2:46:59.07,2:47:29.50
+260,Bud Stiffler,Anderson IN,557,76,M,2:47:11.56,2:47:33.78
+261,Lynda Petri,Marengo IL,705,58,F,2:47:34.43,2:47:57.13
+262,Kahla Hewitt,Marion IN,608,43,F,2:47:46.05,2:48:09.03
+263,Janice Smith,Milan MI,747,54,F,2:48:23.53,2:48:29.26
+264,Patrice Suplicki,Fort Wayne IN,763,22,F,2:48:14.37,2:48:31.10
+265,Annie Holderman,Warsaw IN,487,21,F,2:48:24.46,2:48:42.29
+266,Joelle Schram,Winona Lake IN,488,17,F,2:48:23.77,2:48:42.30
+267,Mary Kay Slattery,Cincinnati OH,744,61,F,2:52:45.93,2:53:11.77
+268,Patti Grimm,Churubusco IN,590,50,F,2:54:00.84,2:54:24.95
+269,Valerie Stauffer,Fort Wayne IN,756,37,F,2:54:40.77,2:54:57.91
+270,Shelly Sausaman,Claypool IN,724,50,F,2:55:05.99,2:55:23.37
+271,Cynthia Orr,Columbia City IN,700,62,F,2:55:27.62,2:55:48.63
+272,Mimi Shelton,Hamlet IN,741,42,F,2:55:55.38,2:56:21.40
+273,Angela Nicole,Lafayette IN,690,27,F,2:57:13.34,2:57:37.44
+274,Holly Wireman,Mill Creek IN,796,30,F,2:57:46.48,2:57:53.18
+275,Erika Wolfe,Columbia City IN,797,41,F,2:57:56.98,2:58:11.91
+276,Cheryl Mertz,Columbia City IN,673,50,F,2:57:57.16,2:58:12.04
+277,Drew Hettich,Culver IN,607,40,M,3:00:34.00,3:00:58.58
+278,Teneal Gardner,Swayzee IN,575,33,F,3:02:16.71,3:02:41.20
+279,Richard Peete,Crystal Lake IL,704,54,M,3:03:22.42,3:03:32.58
+280,Ken Lude,Columbia City IN,649,71,M,3:07:23.89,3:07:42.29
+281,Kirk Lude,Columbia City IN,650,48,M,3:07:24.25,3:07:42.91
+282,Sean Ambrose,Columbia City IN,506,43,M,3:08:03.81,3:08:21.89
+283,Gabe Rice,Swayzee IN,714,33,M,3:09:00.52,3:09:25.46
+284,Ann Krider,Columbia City IN,635,61,F,3:12:21.08,3:12:42.18
+285,Nicole Emenhiser,Woodburn IN,1221,27,F,3:12:51.64,3:13:09.35
+286,Jade Kelsey,Fort Wayne IN,624,36,F,3:12:51.49,3:13:09.79
+287,Ashley Smith,Fort Wayne IN,746,29,F,3:12:53.50,3:13:11.22
+288,Phoebe Helvie,Huntington IN,603,49,F,3:15:09.51,3:15:35.96
+289,Ed Zimmerman,Grand Haven MI,1214,65,M,3:18:17.58,3:18:54.29
+290,Marvin Tapp,Valparaiso IN,771,53,M,3:20:11.49,3:20:37.40
+291,Jana Johnston,Houston TX,617,59,F,3:28:26.44,3:28:52.84
+292,Richard Schuman,Columbia City IN,729,83,M,3:29:02.04,3:29:24.14
+293,Cindy Zollinger,Columbia City IN,800,58,F,3:29:03.34,3:29:24.50
+294,Janie Graves,Fort Wayne IN,67,53,F,3:32:06.32,3:32:32.26
+295,Julie Mast,Columbia City IN,657,53,F,3:32:11.43,3:32:32.48
+296,Steve Greider,Fort Wayne IN,588,65,M,3:32:43.10,3:32:58.47
+297,Betty Greider,Fort Wayne IN,587,53,F,3:34:15.59,3:34:30.89
+298,Ray Stiffler,Indianapolis IN,759,55,M,3:35:46.47,3:36:08.29
+299,Lindsey Stiffler,Indianapolis IN,758,24,F,3:35:46.85,3:36:08.79
+300,Kay Fleck,Columbia City IN,570,69,F,3:44:04.43,3:44:31.28
+301,Bill Meader,Columbia City IN,671,61,M,3:44:09.84,3:44:31.53
+302,Barbara Hobbs,Kokomo IN,610,61,F,4:04:34.88,4:04:52.36
+303,Melvin Hobbs,Kokomo IN,611,65,M,4:04:36.10,4:04:53.43
+304,David Peterson,Fort Wayne IN,138,45,M,4:17:54.13,4:18:21.34

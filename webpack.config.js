@@ -49,13 +49,15 @@ module.exports = {
       'app.revision': JSON.stringify(revision)
     }),
     new CopyWebpackPlugin([
-      { from: path.join(srcPath, 'images'), to: 'images' }
+      { from: path.join(srcPath, 'images'), to: 'images' },
+      { from: path.join(srcPath, 'server'), to: 'server' },
+      { from: path.join(srcPath, 'results'), to: 'results' }
     ]),
   ],
   devServer: {
     openPage: '',
     open: true,
     contentBase: pubPath,
-    historyApiFallback:true
+    historyApiFallback: true
   }
 };

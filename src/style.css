@@ -54,9 +54,14 @@
 }
 
 .section-wrapper {
-    width: 80%;
+    width: 70%;
     margin: auto;
 }
+
 svg {
     padding-left: .25vw;
+}
+
+table.results-table td {
+    border-right: #464646 1px solid;
 }

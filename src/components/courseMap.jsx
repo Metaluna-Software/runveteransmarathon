@@ -5,7 +5,7 @@ const CourseMap = (props) => {
     name = ''
   } = props;
   return (
-    <div className='section-wrapper'>
+    <div>
       <h2>Course map</h2>
       <img src={name} alt='course map'/>
     </div>

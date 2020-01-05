@@ -1,0 +1,136 @@
+Place,Name,City,Bib No,Age,Gender,Rank 1st half,Time 1st half,Rank 2nd half,Time 2nd half,Total Time,Total Pace
+1,Grant Stieglitz,Fort Wayne IN,327,31,M,1,29:02.4,1,26:23.6,55:26.0,6:42/M
+2,Christopher Gregory,Kalamazoo MI,247,36,M,2,29:02.4,2,27:01.6,56:04.1,6:43/M
+3,Tyler Reese,Paulding OH,310,28,M,4,30:13.7,3,31:26.5,01:40.2,6:56/M
+4,Patrick Blevins,Swanton OH,210,36,M,7,31:52.7,4,31:54.6,03:47.3,7:01/M
+5,Robert Marks,Perrysburg OH,275,24,M,6,31:51.9,5,32:22.9,04:14.7,7:02/M
+6,Liesl Muehlhauser,South Bend IN,291,29,F,5,31:40.0,6,34:01.2,05:41.2,7:05/M
+7,David Powers,Troy OH,305,51,M,16,38:17.6,7,37:37.4,15:55.0,7:29/M
+8,Takayoshi Kuramoto,Ann Arbor MI,272,49,M,15,37:50.2,8,38:22.6,16:12.8,7:29/M
+9,Emily Knight,Notre Dame IN,266,20,F,17,39:50.1,9,38:34.5,18:24.6,7:34/M
+10,Garrett Kolo,Lafayette IN,267,47,M,8,33:21.7,15,45:19.4,18:41.1,7:35/M
+11,Tim Schmitt,Columbia City IN,314,33,M,3,29:41.5,22,49:22.9,19:04.3,7:36/M
+12,Adam Ball,Roanoke IN,205,43,M,14,37:38.6,12,42:44.5,20:23.1,7:39/M
+13,Matthew McDonell,Fort Wayne IN,279,30,M,10,35:05.8,16,45:44.6,20:50.4,7:40/M
+14,Thomas Obrien,Forest Park IL,295,39,M,12,36:30.3,17,46:19.0,22:49.3,7:44/M
+15,Randy Troyer,Lagrange IN,336,52,M,23,42:13.6,10,41:44.8,23:58.4,7:47/M
+16,Erin Brady,Fort Wayne IN,214,45,F,24,42:14.2,13,43:14.8,25:29.0,7:51/M
+17,David Betz,Hicksville OH,208,45,M,13,37:17.1,20,48:12.8,25:29.9,7:51/M
+18,Jp Miller,Waterville OH,283,39,M,11,36:13.6,25,50:19.1,26:32.7,7:53/M
+19,Hannah Aschliman,Ossian IN,203,19,F,25,42:25.6,14,44:14.4,26:40.0,7:53/M
+20,Rick Straughen,Rochester MI,328,35,M,42,49:45.9,11,42:36.6,32:22.5,8:06/M
+21,Natalie Krause,Valparaiso IN,268,35,F,32,44:56.4,19,47:35.6,32:32.0,8:07/M
+22,Emily Streit,Chicago IL,329,34,F,29,43:41.5,21,49:00.4,32:41.9,8:07/M
+23,Bob Davidge,Canton MI,220,51,M,28,43:41.1,27,51:44.0,35:25.0,8:13/M
+24,Mike Driesenga,Ann Arbor MI,228,32,M,22,42:06.5,28,55:06.6,37:13.1,8:17/M
+25,David Harbaugh,Jackson MI,248,51,M,43,49:53.2,18,47:34.2,37:27.3,8:18/M
+26,Mark Sigfrids,Kalamazoo MI,317,63,M,21,42:03.9,29,55:24.2,37:28.0,8:18/M
+27,Allan Reed,Danville IN,309,63,M,35,47:15.5,24,50:19.0,37:34.5,8:18/M
+28,Michael Ogrady,Chicago IL,296,51,M,37,47:48.0,23,50:00.8,37:48.8,8:19/M
+29,Malvina Krol,Barrington IL,271,35,F,26,42:35.0,33,57:20.1,39:55.1,8:24/M
+30,Jonathan Caswell,Hilliard OH,217,27,M,9,33:29.5,50,07:44.9,41:14.4,8:27/M
+31,Chip Vandell,Fort Wayne IN,337,61,M,30,43:52.4,36,58:53.9,42:46.3,8:30/M
+32,Robert Poznanski,Kalamazoo MI,306,56,M,46,50:23.5,30,55:27.5,45:51.0,8:37/M
+33,Phil Wahba,New York NY,341,46,M,45,50:23.4,32,56:53.2,47:16.6,8:40/M
+34,Frances Gradel,Naperville IL,246,20,F,18,41:03.4,48,06:54.5,47:57.9,8:42/M
+35,Brian Galindo,Canton MI,240,39,M,44,50:10.7,35,58:03.3,48:14.0,8:43/M
+36,Derek Hart,Michigan City IN,249,38,M,20,41:12.9,49,07:11.7,48:24.5,8:43/M
+37,Jake Fitzmaurice,Columbia City IN,236,35,M,60,57:56.3,26,51:26.5,49:22.7,8:45/M
+38,Jeff Recker,Ottawa OH,308,40,M,51,52:50.6,31,56:34.3,49:24.9,8:45/M
+39,Brian Devries,Martin MI,225,55,M,53,53:18.3,34,57:31.5,50:49.8,8:49/M
+40,Ingmar Weber,Doha,345,38,M,54,53:47.0,37,59:27.3,53:14.3,8:54/M
+41,Rich Morey,Frankfort MI,287,63,M,40,48:51.1,43,05:14.3,54:05.3,8:56/M
+42,Darren Raiguel,Collegeville PA,307,46,M,41,49:21.0,46,06:07.2,55:28.2,8:59/M
+43,Kevin Oliver,Rossville IN,298,48,M,38,48:00.1,53,08:19.1,56:19.2,9:01/M
+44,Rae Bosio,Indianapolis IN,211,52,F,55,55:22.3,38,01:01.8,56:24.1,9:01/M
+45,Shan Kamalakanth,Goshen IN,257,42,M,47,51:27.8,47,06:37.4,58:05.1,9:05/M
+46,Claire Smart,Noblesville IN,319,47,F,59,57:11.3,39,01:42.7,58:54.0,9:07/M
+47,Autumn Osborn,Kalamazoo MI,300,32,F,63,58:00.3,40,03:48.0,01:48.3,9:14/M
+48,Nate Hawthorne,Kalamazoo MI,250,45,M,52,53:18.2,55,09:55.7,03:13.9,9:17/M
+49,Ben Siems,Kalamazoo MI,316,42,M,61,58:00.2,44,05:20.7,03:20.9,9:17/M
+50,Anna Moss,Kalamazoo MI,290,42,F,62,58:00.3,45,05:27.2,03:27.4,9:18/M
+51,Randy Peoples,Naperville IL,303,57,M,67,00:31.5,41,04:28.8,05:00.3,9:21/M
+52,Marialena Nagel,Hobart IN,293,33,F,56,55:43.9,54,09:31.4,05:15.4,9:22/M
+53,Zebulon Wall,Elkhart IN,342,38,M,48,51:28.2,66,14:26.8,05:55.0,9:23/M
+54,Scott Krause,Valparaiso IN,269,35,M,39,48:29.0,75,20:49.2,09:18.2,9:31/M
+55,Jim Swales,Center Point IA,331,61,M,64,58:03.3,61,11:43.6,09:46.9,9:32/M
+56,Joseph Pacheco,Cedar Lake IN,301,40,M,80,05:04.3,42,05:04.6,10:08.9,9:33/M
+57,Kristen Smith,Ann Arbor MI,324,32,F,34,47:03.2,79,24:28.0,11:31.2,9:36/M
+58,Rebecca Orr,Greencastle IN,299,30,F,68,00:37.2,57,11:09.5,11:46.7,9:37/M
+59,Andrew Delagrange,Auburn IN,222,35,M,57,56:10.5,68,15:53.2,12:03.7,9:37/M
+60,Gerhard Fussle,Winona Lake IN,238,62,M,73,02:03.7,59,11:29.7,13:33.5,9:41/M
+61,Jed Pearson,Fort Wayne IN,302,65,M,76,02:20.0,63,12:53.6,15:13.6,9:44/M
+62,Bethany Kirkwood,Marion IN,263,26,F,74,02:05.1,64,13:31.7,15:36.8,9:45/M
+63,Michelle Ludlow,Gas City IN,274,39,F,75,02:05.2,65,13:31.9,15:37.1,9:45/M
+64,Wing-Kwong Keung,Brecksville OH,259,65,M,70,01:06.9,67,14:54.1,16:01.0,9:46/M
+65,James Dempsey,Silver Spring MD,223,37,M,87,08:16.5,51,08:10.4,16:26.9,9:47/M
+66,Susanne Spano,Fresno CA,325,37,F,86,08:16.2,52,08:11.0,16:27.2,9:47/M
+67,Sue Imig,Lapeer MI,254,58,F,79,04:26.6,62,12:31.5,16:58.0,9:48/M
+68,Tony Clouse,Nappanee IN,219,45,M,66,58:43.3,71,18:27.0,17:10.3,9:49/M
+69,Kim Mierau,Goshen IN,282,32,F,83,07:28.8,58,11:19.7,18:48.5,9:53/M
+70,Rob Gazella,Lansing MI,241,65,M,78,03:42.4,69,16:39.4,20:21.8,9:56/M
+71,Bob Kroeger,Cincinnati OH,270,69,M,69,00:53.1,77,23:44.4,24:37.6,10:06/M
+72,Frank Murphy,Fort Wayne IN,292,47,M,102,15:09.9,56,10:23.0,25:32.9,10:08/M
+73,Laurie Whisler,Fort Wayne IN,346,51,F,77,02:43.6,78,23:49.4,26:33.0,10:10/M
+74,Jeremiah Kill,Monroeville IN,260,42,M,105,16:07.0,60,11:35.7,27:42.7,10:13/M
+75,Steve Wisinski,Brighton MI,349,41,M,65,58:22.8,84,30:40.4,29:03.2,10:16/M
+76,Melinda Kinder,Fort Wayne IN,261,56,F,88,08:59.9,74,20:46.2,29:46.0,10:18/M
+77,Martha Steele,Naperville IL,326,54,F,89,08:59.9,73,20:46.1,29:46.0,10:18/M
+78,Tom Henson,Zeeland MI,251,67,M,99,12:15.4,70,17:59.1,30:14.4,10:19/M
+79,Marty McPeak,Beachwood OH,280,68,M,92,10:36.9,76,21:17.5,31:54.4,10:23/M
+80,Raymond Beja,Bremen IN,207,51,M,81,06:18.7,80,26:22.0,32:40.6,10:24/M
+81,Danielle Sullivan,Fort Wayne IN,330,44,F,100,14:52.7,72,18:44.2,33:36.9,10:27/M
+82,Jason Wilhelmi,Portage MI,348,34,M,72,01:53.7,90,34:58.3,36:52.0,10:34/M
+83,Shannon Birkhold,Kalamazoo MI,209,38,F,71,01:53.4,91,34:58.8,36:52.2,10:34/M
+84,William Warren,Jackson MI,344,41,M,90,09:55.3,83,29:59.0,39:54.3,10:41/M
+85,J. Smith,Evanston IL,323,61,M,82,06:19.3,92,35:20.6,41:39.8,10:45/M
+86,Jes Wade,Muncie IN,340,23,F,58,56:21.9,103,48:44.3,45:06.2,10:53/M
+87,Alyssa Nyberg,Lake Village IN,294,44,F,101,14:58.1,88,32:35.9,47:34.0,10:59/M
+88,Brian Trainor,Battle Creek MI,335,47,M,107,16:27.1,85,31:21.1,47:48.2,10:59/M
+89,Lorena Moras Trainor,Battle Creek MI,286,47,F,104,16:02.4,86,31:45.9,47:48.3,10:59/M
+90,Mark Fetters,Cross Plains TN,234,51,M,112,18:54.6,82,29:16.1,48:10.7,11:00/M
+91,Kendra Kneer,Romeo MI,265,36,F,96,11:59.1,96,36:41.9,48:41.0,11:01/M
+92,Rondi Fillwock,Saint Johns MI,235,33,F,97,11:59.2,97,36:42.2,48:41.4,11:01/M
+93,Debbie Gillespie,Antwerp OH,243,47,F,84,07:54.4,98,41:24.0,49:18.4,11:03/M
+94,Kevin Johnston,West Lafayette IN,256,58,M,117,21:27.8,81,28:01.7,49:29.5,11:03/M
+95,Allen Robinson,Goshen IN,312,52,M,103,15:18.3,95,36:04.6,51:22.9,11:07/M
+96,Arla G Hile,Fresno CA,253,54,F,114,19:54.0,87,31:47.9,51:41.9,11:08/M
+97,Chris Smith,Columbus OH,321,59,M,85,08:15.4,100,44:25.6,52:41.0,11:10/M
+98,Josh Foor,Lafayette IN,237,32,M,108,17:19.9,94,35:27.5,52:47.3,11:10/M
+99,Richard Dickerman,Churubusco IN,227,60,M,109,17:20.0,93,35:27.4,52:47.4,11:10/M
+100,Andrea Morrow,West Bloomfield MI,289,50,F,95,11:39.3,99,41:33.4,53:12.7,11:11/M
+101,Cathy Bradford,El Paso TX,213,59,F,115,20:39.0,89,33:23.4,54:02.5,11:13/M
+102,Aaron Klooze,Fort Wayne IN,264,47,M,106,16:08.2,105,48:49.6,04:57.8,11:38/M
+103,Jason Cales,Honolulu HI,215,43,M,118,23:38.2,102,45:20.2,08:58.4,11:48/M
+104,Jospeh Lude,Columbia City IN,273,18,M,93,11:10.1,108,59:02.4,10:12.5,11:50/M
+105,Connie Gordon,Churubusco IN,245,54,F,91,10:18.6,112,03:00.2,13:18.8,11:57/M
+106,Blake Tippmann,Fort Wayne IN,334,34,M,94,11:39.1,111,02:14.1,13:53.2,11:59/M
+107,Kimberly Farrell,Grayslake IL,233,47,F,120,29:58.9,101,45:10.7,15:09.6,12:02/M
+108,Edward Reid,Jackson MI,311,45,M,116,20:39.3,107,58:17.4,18:56.7,12:10/M
+109,Brian Vanskyock,Fort Wayne IN,338,51,M,113,19:32.7,110,01:04.2,20:36.8,12:14/M
+110,Tony Dewitt,Columbia City IN,226,34,M,98,12:10.3,117,09:09.5,21:19.8,12:16/M
+111,Matthew McBee,Oklahoma City OK,276,58,M,110,18:28.2,113,03:11.3,21:39.5,12:17/M
+112,Amanda Taylor,Columbia City IN,332,39,F,121,33:03.2,104,48:48.4,21:51.6,12:17/M
+113,Stacy Bartlett,Fort Worth TX,206,58,F,122,33:31.8,116,07:32.9,41:04.7,13:01/M
+114,Tom McCourt,Dayton OH,278,59,M,111,18:43.6,122,22:21.1,41:04.7,13:01/M
+115,David Baer,Goshen IN,204,60,M,130,58:21.9,109,59:30.8,57:52.7,13:40/M
+116,Walter Evans,Mooreland IN,232,51,M,124,43:45.6,120,14:07.2,57:52.8,13:40/M
+117,Steve Slattery,Cincinnati OH,318,64,M,125,49:12.6,118,09:26.0,58:38.6,13:41/M
+118,Tom Wiese,Munster IN,347,57,M,128,55:03.7,115,05:02.7,00:06.3,13:45/M
+119,Dominic Gagliardi,Hobart IN,239,46,M,129,55:04.3,114,05:02.2,00:06.5,13:45/M
+120,Karl Oliger,Bloomington IL,297,42,M,127,52:25.6,119,11:08.4,03:34.0,13:53/M
+121,Anita Hernandez,Warsaw IN,252,44,F,123,41:55.2,123,24:03.1,05:58.3,13:58/M
+122,Evelyn Smith,Rockford IL,322,56,F,134,13:41.3,106,55:26.3,09:07.6,14:05/M
+123,Richard Kinstler,Tiffin OH,262,72,M,126,52:23.3,121,17:01.7,09:25.1,14:06/M
+124,Jen Savage,Warsaw IN,313,45,F,132,59:26.0,124,27:58.3,27:24.2,14:47/M
+125,April Moore,Kendallville IN,285,36,F,131,58:24.2,125,52:53.4,51:17.5,15:42/M
+DNF,Casey Morgan,Roanoke IN,288,30,M,19,41:12.1,,,,
+DNF,Katrina Terry,Dayton OH,333,30,F,27,42:49.8,,,,
+DNF,Jerry Bruce,Saint Louis MO,350,49,M,31,44:46.7,,,,
+DNF,Alexander Smith,Ann Arbor MI,320,31,M,33,47:03.0,,,,
+DNF,Devin Gilliam,Fort Wayne IN,244,25,M,36,47:39.6,,,,
+DNF,Raymond F Gildner,Fort Wayne IN,242,60,M,49,51:44.3,,,,
+DNF,Stefanie Driesenga,Ann Arbor MI,229,29,F,50,52:04.8,,,,
+DNF,Ben Shinneman,Columbia City IN,315,26,M,119,26:55.6,,,,
+DNF,Heidi Ehle,New Haven IN,230,41,F,133,09:26.6,,,,
+DNF,Brian Johnson,Blacklick OH,255,41,M,135,16:27.0,,,,

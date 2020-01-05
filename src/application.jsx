@@ -8,6 +8,8 @@ import HalfMarathon from './pages/halfMarathon';
 import Marathon from './pages/marathon';
 import FiveK from './pages/fiveK';
 import enData from './lang/en.json'
+import ContactUs from './pages/contactUs';
+import Results from './pages/results';
 
 class Application extends React.Component {
   constructor(props) {
@@ -24,6 +26,12 @@ class Application extends React.Component {
         <Navigation/>
         <div id='main' role='main'>
           <Switch>
+            <Route path="/results">
+              <Results enJson={this.enJson()}/>
+            </Route>
+            <Route path="/contact">
+              <ContactUs enJson={this.enJson()}/>
+            </Route>
             <Route path="/marathon">
               <Marathon enJson={this.enJson()}/>
             </Route>

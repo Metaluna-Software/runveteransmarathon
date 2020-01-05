@@ -38,7 +38,7 @@ class Section extends React.Component {
 
   render() {
     return (
-      <div className='section-wrapper'>
+      <div>
         {this.state.title}
         <ParseNewLines message={this.state.message}/>
       </div>
