@@ -1,4 +1,5 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 
 class PriceTable extends React.Component {
   constructor(props) {
@@ -6,7 +7,7 @@ class PriceTable extends React.Component {
     this._isMounted = false;
     this.state = {
       rows: []
-    }
+    };
   }
 
   componentDidMount() {
@@ -16,14 +17,14 @@ class PriceTable extends React.Component {
         return r.json();
       })
       .then(data => {
-        let rows = [];
-        let str = data.acf[this.props.priceKey].replace(/<(?:.|\s)*?>/g, '');
-        let strArray = str.split('\r\n');
+        const rows = [];
+        const str = data.acf[this.props.priceKey].replace(/<(?:.|\s)*?>/g, '');
+        const strArray = str.split('\r\n');
         strArray.map(itemStr =>
           rows.push(itemStr.split('='))
         );
         this.setState({ rows: rows });
-      })
+      });
   }
 
   render() {
@@ -44,10 +45,10 @@ class PriceTable extends React.Component {
               return (
                 <tr key={i}>
                   {row.map((cell, i) => {
-                    return <td key={i}>{cell}</td>
+                    return <td key={i}>{cell}</td>;
                   })}
                 </tr>
-              )
+              );
             }
           )}
           </tbody>
@@ -56,5 +57,13 @@ class PriceTable extends React.Component {
     );
   }
 }
+
+PriceTable.propTypes = {
+  enJson: PropTypes.object,
+  url: PropTypes.string,
+  columns: PropTypes.array,
+  rows: PropTypes.array,
+  priceKey: PropTypes.string
+};
 
 export default PriceTable;

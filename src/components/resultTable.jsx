@@ -1,4 +1,5 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 
 const ResultTable = (props) => {
   const {
@@ -24,15 +25,22 @@ const ResultTable = (props) => {
                 {Object.keys(row).map((item, i) => {
                   return (
                     <td key={i}>{row[item]}</td>
-                  )
+                  );
                 })}
               </tr>
-            )
+            );
           }
         )}
         </tbody>
       </table>
     </div>
-  )
+  );
 };
+
+ResultTable.propTypes = {
+  enJson: PropTypes.object,
+  columns: PropTypes.array,
+  rows: PropTypes.array
+};
+
 export default ResultTable;

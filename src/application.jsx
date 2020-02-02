@@ -7,7 +7,7 @@ import RaceDay from './pages/raceDay';
 import HalfMarathon from './pages/halfMarathon';
 import Marathon from './pages/marathon';
 import FiveK from './pages/fiveK';
-import enData from './lang/en.json'
+import enData from './lang/en.json';
 import ContactUs from './pages/contactUs';
 import Results from './pages/results';
 

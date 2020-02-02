@@ -1,4 +1,5 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 
 const CourseMap = (props) => {
   const {
@@ -10,6 +11,10 @@ const CourseMap = (props) => {
       <img src={name} alt='course map'/>
     </div>
   );
+};
+
+CourseMap.propTypes = {
+  name: PropTypes.string
 };
 
 export default CourseMap;

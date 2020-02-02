@@ -2,6 +2,7 @@ import React from 'react';
 import * as d3 from 'd3-fetch';
 import Select from 'react-select';
 import ResultTable from './resultTable';
+import PropTypes from 'prop-types';
 
 const path = require('path');
 
@@ -72,12 +73,12 @@ class TimeToRunResults extends React.Component {
           columns: r.columns
         };
       } else {
-        return { rows: [], columns: [] }
+        return { rows: [], columns: [] };
       }
     } catch (e) {
       console.error('Error with csv', e);
       this.setState({ error: 'No results found' });
-      return { rows: [], columns: [] }
+      return { rows: [], columns: [] };
     }
   }
 
@@ -92,5 +93,10 @@ class TimeToRunResults extends React.Component {
     );
   }
 }
+
+TimeToRunResults.propTypes = {
+  enJson: PropTypes.object,
+  year: PropTypes.string
+};
 
 export default TimeToRunResults;

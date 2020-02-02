@@ -1,12 +1,9 @@
 import React from 'react';
 import Banner from '../navigation/banner';
 import Section from '../components/section';
+import PropTypes from 'prop-types';
 
 class Home extends React.Component {
-  constructor(props) {
-    super(props);
-  }
-
   render() {
     return (
       <div className='section-wrapper'>
@@ -15,8 +12,14 @@ class Home extends React.Component {
         <Banner/>
         <Section url={this.props.enJson.homeWelcomeWP}/>
       </div>
-    )
+    );
   }
 }
+
+Home.propTypes = {
+  enJson: PropTypes.object,
+  marathonDate: PropTypes.string,
+  homeWelcomeWP: PropTypes.string
+};
 
 export default Home;

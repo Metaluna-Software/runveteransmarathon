@@ -1,5 +1,6 @@
 import React from 'react';
 import { HashLink as Link } from 'react-router-hash-link';
+import PropTypes from 'prop-types';
 const Navbar = ReactBootstrap.Navbar;
 const Button = ReactBootstrap.Button;
 const NavDropdown = ReactBootstrap.NavDropdown;
@@ -42,7 +43,7 @@ const Navigation = () => {
             <Link to='contact' className='nav-link'>Contact Us</Link>
           </li>
           <li className='nav-item'>
-            <a href='https://runsignup.com' target='_blank' className='nav-link'>Register
+            <a href='https://runsignup.com' target='_blank' rel='noopener noreferrer' className='nav-link'>Register
               <i className='fas fa-external-link-alt padding-left-one'></i>
             </a>
           </li>
@@ -50,6 +51,10 @@ const Navigation = () => {
       </div>
     </nav>
   );
+};
+
+Navigation.propTypes = {
+  enJson: PropTypes.object
 };
 
 export default Navigation;

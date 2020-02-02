@@ -9,7 +9,7 @@ class Section extends React.Component {
     this.state = {
       message: '',
       title: ''
-    }
+    };
   }
 
   componentDidMount() {
@@ -32,7 +32,7 @@ class Section extends React.Component {
       });
     if (this.props.title) {
       const title = <h2>{this.props.title}</h2>;
-      this.setState({ title: title })
+      this.setState({ title: title });
     }
   }
 
@@ -47,7 +47,11 @@ class Section extends React.Component {
 }
 
 Section.propTypes = {
+  enJson: PropTypes.object,
+  title: PropTypes.string,
   message: PropTypes.string,
-  title: PropTypes.string
+  url: PropTypes.string,
+  marathonDate: PropTypes.string
 };
+
 export default Section;

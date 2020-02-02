@@ -4,10 +4,6 @@ import ERunnerResults from './ERunnerResults';
 import TimeToRunResults from './TimeToRunResults';
 
 class ResultType extends React.Component {
-  constructor(props) {
-    super(props);
-  }
-
   render() {
     if (parseInt(this.props.year) >= 2018) {
       return (

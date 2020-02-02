@@ -1,6 +1,7 @@
 import React from 'react';
 import Heading from '../components/heading';
 import Section from '../components/section';
+import PropTypes from 'prop-types';
 
 class ContactUs extends React.Component {
   constructor(props) {
@@ -15,7 +16,7 @@ class ContactUs extends React.Component {
   }
 
   handleChange(event) {
-    this.setState({ [event.target.name]: event.target.value })
+    this.setState({ [event.target.name]: event.target.value });
   }
 
   handleSubmit(event) {
@@ -23,7 +24,7 @@ class ContactUs extends React.Component {
     fetch('../server/contact.php', {
       method: 'POST',
       headers: {
-        'Accept': 'application/json',
+        Accept: 'application/json',
         'Content-Type': 'application/json'
       },
       body: JSON.stringify({ email: this.state.email, phone: this.state.phone, message: this.state.message })
@@ -51,5 +52,10 @@ class ContactUs extends React.Component {
     );
   }
 }
+
+ContactUs.propTypes = {
+  enJson: PropTypes.object,
+  contactUsDetailWP: PropTypes.string
+};
 
 export default ContactUs;

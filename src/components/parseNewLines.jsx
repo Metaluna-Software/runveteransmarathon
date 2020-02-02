@@ -9,11 +9,11 @@ const ParseNewLines = (props) => {
   if (message) {
     text = message.split('\n').map((item, i) => <p key={i}>{item}</p>);
   }
-  return (text)
+  return (text);
 };
 
 ParseNewLines.propTypes = {
   message: PropTypes.string
 };
 
-export default ParseNewLines
+export default ParseNewLines;

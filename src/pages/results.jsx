@@ -1,6 +1,6 @@
 import React from 'react';
 import Heading from '../components/heading';
-import Select from 'react-select'
+import Select from 'react-select';
 import ResultType from '../components/resultType';
 
 const yearOptions = [

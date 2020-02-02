@@ -1,12 +1,9 @@
 import React from 'react';
 import Section from '../components/section';
 import Heading from '../components/heading';
+import PropTypes from 'prop-types';
 
 class RaceDay extends React.Component {
-  constructor(props) {
-    super(props);
-  }
-
   render() {
     return (
       <div className={'section-wrapper'}>
@@ -20,5 +17,14 @@ class RaceDay extends React.Component {
     );
   }
 }
+
+RaceDay.propTypes = {
+  enJson: PropTypes.object,
+  raceDayScheduleWP: PropTypes.string,
+  raceDayParkingWP: PropTypes.string,
+  raceDayPostRaceWP: PropTypes.string,
+  raceDayAwardWP: PropTypes.string,
+  raceDaySpectatorWP: PropTypes.string
+};
 
 export default RaceDay;
