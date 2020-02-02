@@ -1,14 +1,11 @@
 import React from 'react';
 import { HashLink as Link } from 'react-router-hash-link';
 import PropTypes from 'prop-types';
-const Navbar = ReactBootstrap.Navbar;
-const Button = ReactBootstrap.Button;
-const NavDropdown = ReactBootstrap.NavDropdown;
-const Nav = ReactBootstrap.Nav;
 
 const Navigation = () => {
   return (
-    <nav className='navbar navbar-expand-lg navbar-light bg-light nav-wrapper' data-toggle="collapse" data-target=".nav-collapse">
+    <nav className='navbar navbar-expand-lg navbar-light bg-light nav-wrapper' data-toggle="collapse"
+         data-target=".nav-collapse">
       <a className="navbar-brand" href="/">VM</a>
       <button className="navbar-toggler"
               type="button"
