@@ -7,7 +7,7 @@ class ResultType extends React.Component {
   render() {
     if (parseInt(this.props.year) >= 2018) {
       return (
-        <ERunnerResults year={this.props.year}/>
+        <ERunnerResults enJson={this.props.enJson} year={this.props.year}/>
       );
     }
     return (

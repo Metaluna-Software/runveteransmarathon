@@ -10,6 +10,7 @@ const raceOptions = [
   { value: 'marathon', label: 'Marathon' },
   { value: 'marathon-steelrim', label: 'Marathon Steel Rim' },
   { value: 'half', label: 'Half-Marathon' },
+  { value: 'half-steelrim', label: 'Half Marathon Steel Rim' },
   { value: '5k', label: '5k' }
 ];
 
@@ -76,7 +77,7 @@ class TimeToRunResults extends React.Component {
         return { rows: [], columns: [] };
       }
     } catch (e) {
-      console.error('Error with csv', e);
+      console.warn('No results found for race type and year');
       this.setState({ error: 'No results found' });
       return { rows: [], columns: [] };
     }

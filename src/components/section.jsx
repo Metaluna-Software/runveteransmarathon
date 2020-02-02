@@ -28,6 +28,7 @@ class Section extends React.Component {
         str = str.replace(/<(?:.|\s)*?>/g, '');
         str = str.replace(/&#8211;/gi, ':');
         str = str.replace(/&#8217;/gi, '\'');
+        str = str.replace(/&nbsp;/gi, ' ');
         this.setState({ message: str });
       });
     if (this.props.title) {

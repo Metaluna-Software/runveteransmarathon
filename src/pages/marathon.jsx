@@ -17,7 +17,7 @@ const Marathon = (props) => {
       <PriceTable url={enJson.priceWP} priceKey='marathon_prices' columns={enJson.priceColumns}/>
       <CourseMap name={'../images/USATF-Map-Marathon-VM17.png'}/>
       <ElevationMap/>
-      <Section url={enJson.marathonSwagWP} enJson={enJson} title={'Swag'}/>
+      <Section url={enJson.marathonSwagWP} enJson={enJson} title={'Gear'}/>
       <Section url={enJson.marathonAwardsWP} enJson={enJson} title={'Awards'}/>
       <Section url={enJson.marathonRecordsWP} enJson={enJson} title={'Records'}/>
     </div>

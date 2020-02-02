@@ -1,0 +1,181 @@
+Place,Name,City,Bib No,Age,Gend,Age Group,Time,
+1,Justin Gillette,Berne  IN,60,26,M,1 20-29,2:39:12
+2,David Terrill  Sr.,Tarentum  PA,154,53,M,1 50-59,2:54:07
+3,Peter Prescott,Indianapolis  IN,129,38,M,1 30-39,2:56:21
+4,Darren Graham,Lansing  MI,66,39,M,2 30-39,2:58:22
+5,Jake Gillette,Goshen  IN,59,23,M,1 20-29,3:02:36
+6,Scott Kretzmann,Detroit  MI,90,23,M,2 20-29,3:08:07
+7,Scott Eberle,Fort Wayne  IN,42,46,M,1 40-49,3:08:22
+8,Michael Kern,Santa Clous  IN,749,42,M,2 40-49,3:09:30,
+9,Adam Coatney,Dayton  OH,27,32,M,3 30-39,3:10:17
+10,Grant Stieglitz,Fort Wayne  IN,150,24,M,3 20-29,3:11:12,
+11,Bob Bouchard,Greenville  RI,85,51,M,1 50-59,3:11:24
+12,William Carter,MacOmb  MI,22,41,M,3 40-49,3:11:58
+13,Anthony Hanks,Livonia  MI,399,34,M,4 30-39,3:14:38
+14,Daniel Johnston,Kaukauna  WI,195,42,M,4 40-49,3:15:37,
+15,Michael Anderson,Dunlap  IL,5,44,M,5 40-49,3:16:22
+16,Steve Torok,Bethel  OH,156,43,M,6 40-49,3:17:14
+17,Stephen Kerr,Sterling Heights  M,181,38,M,5 30-39,3:20:22,
+18,Steve Geller,Bloomington  IL,57,40,M,7 40-49,3:20:27
+19,Laura Austin,Rockford  MI,8,35,F,1 30-39,3:23:00
+20,Matt Germann,Griffith  IN,58,28,M,4 20-29,3:23:52
+21,Scott Finnell,Allison Park  PA,50,53,M,2 50-59,3:24:11,
+22,Bob Sarocka,Lombard  IL,175,46,M,8 40-49,3:24:52
+23,Chip Vandell,Fort Wayne  IN,159,54,M,3 50-59,3:25:39
+24,Ron Bonifas,Delphos  OH,15,50,M,4 50-59,3:26:09
+25,Gene Faron,Auburn  IN,47,48,M,9 40-49,3:26:20
+26,Patrick Voigtman,Appleton  WI,162,43,M,10 40-49,3:26:45,
+27,David McManama,Burlington  KY,112,35,M,6 30-39,3:27:29
+28,Bill Anderson,Glen Ellyn  IL,4,37,M,7 30-39,3:28:02
+29,Brian Silver,Farmington Hills  M,140,41,M,11 40-49,3:28:20,
+30,Ward Moya,Fort Wayne  IN,194,46,M,12 40-49,3:29:40
+31,Dennis Younkin,South Lyon  MI,171,42,M,13 40-49,3:30:17
+32,Jonathan Marsh,Kalamazoo  MI,106,23,M,5 20-29,3:30:32
+33,Kristina Rynes,Norwalk  WI,134,29,F,1 20-29,3:30:34
+34,Thomas Pawlyn,Troy  MI,124,45,M,14 40-49,3:30:47
+35,Kristin Kachnowski,Wixom  MI,82,38,F,1 30-39,3:31:05
+36,Theo Bosch,Barrie  ON,392,50,M,5 50-59,3:31:42
+37,Scott Perry,Fisher  IN,390,41,M,15 40-49,3:32:21
+38,Chuck Brown,Bluffton  IN,741,54,M,6 50-59,3:32:41
+39,Jeremy Freeman,Columbia City  IN,53,34,M,8 30-39,3:32:46,
+40,Jason House,Ossian  IN,74,37,M,9 30-39,3:32:55
+41,Mitch Brouwer,Hudsonville  MI,18,40,M,16 40-49,3:33:43
+42,Gary Mallekoote,Hudsonville  MI,105,45,M,17 40-49,3:33:43,
+43,Mike Soat,Fort Wayne  IN,146,46,M,18 40-49,3:34:14
+44,Spencer Brauchla,Laotto  IN,177,17,M,1  0-19,3:34:47
+45,Duey Flinn,Ionia  MI,387,45,M,19 40-49,3:35:16
+46,Roger Ison,Barrie  ON,393,53,M,7 50-59,3:35:24
+47,Renee Champagne,Milford  MI,25,40,F,1 40-49,3:35:50
+48,James Towe,Fishers  IN,750,30,M,10 30-39,3:35:50
+49,Chris Vastine,Morton  IL,161,35,M,11 30-39,3:36:20
+50,Daniel Blondin,Westmont  IL,131,56,M,8 50-59,3:36:57
+51,Hal Pearson,Albion  IN,188,55,M,9 50-59,3:37:07
+52,J Dewar,Gloucester  ON,35,47,M,20 40-49,3:37:22
+53,Chris Judson,Goshen  IN,81,42,M,21 40-49,3:38:27
+54,Doug Beagle,Houston  TX,10,59,M,10 50-59,3:38:58
+55,Julie Berger,Ionia  MI,13,40,F,1 40-49,3:39:40
+56,Todd Findley,Fort Wayne  IN,191,39,M,12 30-39,3:41:11
+57,Tim Liebrecht,Adrian  MI,101,17,M,2  0-19,3:42:44
+58,Steve Gorsuch,Mishawaka  IN,65,56,M,11 50-59,3:43:37
+59,Jerry Boone,Washington Ct. Hse,16,60,M,1 60-69,3:44:39,
+60,Eric Guenther,Northville  MI,196,47,M,22 40-49,3:44:57
+61,Bill Vance,Columbia City  IN,158,49,M,23 40-49,3:47:14
+62,Ashley Cearbaugh,Larwill  IN,24,40,F,2 40-49,3:48:22
+63,Gus Virkus,St. Louis Park  MN,174,59,M,12 50-59,3:48:24
+64,Michael Fecher,Goshen  IN,746,20,M,6 20-29,3:49:05
+65,Michael McLaughlin,Dayton  OH,111,51,M,13 50-59,3:49:44
+66,Rob Levitz,Ossian  IN,100,44,M,24 40-49,3:49:46
+67,Darcy Lallathin,Larue  OH,744,39,F,2 30-39,3:49:59
+68,Joel Brauchla,Laotto  IN,176,17,M,3  0-19,3:50:23
+69,Charles Ross,Ionia  MI,69,60,M,2 60-69,3:50:37
+70,Michael Dehaven,Valparaiso  IN,34,38,M,13 30-39,3:51:22,
+71,Helen Garen,Fairborn  OH,197,44,F,3 40-49,3:51:32
+72,Eric Lanning,Fort Wayne  IN,97,35,M,14 30-39,3:51:47
+73,Denise Patch,Columbia City  IN,122,38,F,3 30-39,3:53:04,
+74,Luster Roush,Columbia City  IN,132,43,M,25 40-49,3:53:41,
+75,Gordon White,Prince Frederick  M,166,47,M,26 40-49,3:54:13,
+76,Harley Tom,Downers Grove  IL,185,43,M,27 40-49,3:54:35
+77,Peter Klein,Oconomowoc  WI,89,49,M,28 40-49,3:54:46
+78,Bryan Fairchild,Roanoke  IN,45,29,M,7 20-29,3:57:36
+79,Larry Erlandson,Holland  MI,742,60,M,3 60-69,3:58:06,
+80,Evan Hyndman,Fort Wayne  IN,76,29,M,8 20-29,3:58:38
+81,Brad Heyneman,Fort Wayne  IN,72,40,M,29 40-49,3:59:39
+82,Katherine Lee,Columbia  MO,99,49,F,4 40-49,4:02:37
+83,Laura Gehrig,Bismarck  ND,56,51,F,1 50-59,4:02:43
+84,Don Ransome,Warsaw  IN,130,59,M,14 50-59,4:03:09
+85,Donna Ornosky,Birdsboro  PA,120,47,F,5 40-49,4:03:16
+86,Brandi Duncan,Columbia City  IN,39,32,F,4 30-39,4:03:50,
+87,Wendell Lafave,Williamstown  ON,93,60,M,4 60-69,4:04:38,
+88,Renee Johnson,Lowell  MI,80,42,F,6 40-49,4:04:43
+89,Bruce Langlois,Lowell  MI,96,50,M,15 50-59,4:04:43
+90,Chris Dunmire,Fort Wayne  IN,40,35,M,15 30-39,4:06:02
+91,Sara Bauer,New Haven  IN,12,35,F,5 30-39,4:07:52
+92,Jeffrey Lamaster,Auburn  IN,94,28,M,9 20-29,4:08:53
+93,Rodney Herbert,Fort Wayne  IN,179,45,M,30 40-49,4:09:24
+94,Maria Schreiber,La Grange  IL,184,45,F,7 40-49,4:10:13,
+95,Marc McGrew,Leitchfield  KY,199,41,M,31 40-49,4:10:44,
+96,Michelle Dunlauy,Bettendorf  IA,747,51,F,2 50-59,4:11:06,
+97,Jesse Brown,Huntington  IN,19,35,M,16 30-39,4:11:25
+98,Del Doughty,Huntington  IN,37,43,M,32 40-49,4:11:25
+99,Erick Senkmajer,Fort Gratiot  MI,138,40,M,33 40-49,4:13:25,
+100,David Threm,Fort Wayne  IN,155,39,M,17 30-39,4:14:47,
+101,William Hartman,Austintown  OH,70,39,M,18 30-39,4:14:50,
+102,Michael Gutowsky,Wayland  MI,67,49,M,34 40-49,4:15:48
+103,Matthew Toren,Elgin  IL,186,41,M,35 40-49,4:18:57
+104,Becky Kaminski,Joliet  IL,84,39,F,6 30-39,4:19:47
+105,Christine Byers,Valparaiso  IN,20,41,F,8 40-49,4:20:19
+106,Kelly Hochstetler,Columbia City  IN,73,31,F,7 30-39,4:20:28
+107,Laura Moss,Wilmette  IL,116,51,F,3 50-59,4:20:55
+108,Betsy Dodds,Glen Carbon  IL,397,42,F,9 40-49,4:21:04
+109,Timothy Goheen,Fort Wayne  IN,61,44,M,36 40-49,4:21:13
+110,Dallas Leatherman,Columbia City  IN,98,54,M,16 50-59,4:21:20
+111,Brian Bills,Columbia City  IN,14,45,M,37 40-49,4:21:34
+112,Amy Stephan,Fort Wayne  IN,148,31,F,8 30-39,4:21:54
+113,Shawn Maynard,Fort Wayne  IN,108,32,M,19 30-39,4:23:04
+114,Joe Astroski,Fort Wayne  IN,7,53,M,17 50-59,4:23:25
+115,Tara Harshbarger,Muncie  IN,173,30,F,9 30-39,4:23:25
+116,Chris Croy,Fort Wayne  IN,31,53,M,18 50-59,4:24:22
+117,Carol Kuhn,Rubicon  WI,91,54,F,4 50-59,4:24:39
+118,Lance Brauchla,Laotto  IN,17,53,M,19 50-59,4:25:23
+119,Kerry Stevens,Rensselaer  IN,149,40,F,10 40-49,4:25:30
+120,Steven Kahl,Fishers  IN,83,49,M,38 40-49,4:26:05
+121,Kent Ennis,Fort Wayne  IN,43,42,M,39 40-49,4:27:02
+122,Kathryn Bassett,Leo  IN,11,43,F,11 40-49,4:27:03
+123,Connie Gordon,Churubusco  IN,64,47,F,12 40-49,4:27:07
+124,Stacey Henry,Beavercreek  OH,71,33,F,10 30-39,4:27:12
+125,Douglas Lovall,Valparaiso  IN,104,41,M,40 40-49,4:27:26
+126,Carey Cranston,Chicago  IL,30,44,M,41 40-49,4:27:59
+127,Alyssa Gordon,Tuscola  IL,63,20,F,2 20-29,4:28:00
+128,Darin Slade,Falls Church  VA,142,43,M,42 40-49,4:28:25
+129,Linda Ianucilli,Fort Wayne  IN,77,47,F,13 40-49,4:29:10
+130,Jay Rueth,Wauwatosa  WI,133,39,M,20 30-39,4:29:20
+131,Dave Winters,Huntington  IN,168,59,M,20 50-59,4:33:53
+132,Daniel Stahl,Washington Court Ho,147,54,M,21 50-59,4:34:03
+133,Steven Kipisz,Plano  TX,87,47,M,43 40-49,4:34:26
+134,Susan Hancock,Mishawaka  IN,68,42,F,14 40-49,4:35:14
+135,James Potapa,Kentwood  MI,128,59,M,22 50-59,4:36:32
+136,Kelly Kern,Valparaiso  IN,86,50,M,23 50-59,4:37:37
+137,Art Jacobson,Bloomington  MN,78,55,M,24 50-59,4:38:23
+138,Bob Jennings,Huntington  IN,79,58,M,25 50-59,4:39:02
+139,Alicia Dehaven,Valparaiso  IN,33,38,F,11 30-39,4:39:52
+140,Robert Gazella,Lansing  MI,55,58,M,26 50-59,4:40:55
+141,Jo May,Houston  TX,182,61,F,1 60-69,4:42:34
+142,Thomas Woroszylo,Lowell  IN,169,23,M,10 20-29,4:42:35
+143,Richard Finedell,Galesburg  MI,49,33,M,21 30-39,4:43:29
+144,Erica Finedell,Galesburg  MI,48,32,F,12 30-39,4:43:30
+145,Pat Carey,Zeeland  MI,21,43,M,44 40-49,4:44:23
+146,Jodi Adkins,Osceola  IN,2,39,F,13 30-39,4:44:52
+147,Denise Cooper,Rockford  IL,29,51,F,5 50-59,4:45:03
+148,Boris Tannenbaum,Vernon Hills  IL,153,53,M,27 50-59,4:47:30
+149,Richard Patitucci,Philadelphia  PA,123,50,M,28 50-59,4:49:34
+150,Bob Angarola,Portage  IN,6,45,M,45 40-49,4:53:13
+151,Eugene R. Curnow,Saginaw  MN,32,65,M,5 60-69,4:53:13
+152,Jerra Myers,Columbia City  IN,118,29,F,3 20-29,4:56:43
+153,Cortney Schwartz,Fort Wayne  IN,137,41,M,46 40-49,4:56:43
+154,Jennifer Savage,Warsaw  IN,136,38,F,14 30-39,4:57:08
+155,Ashley Wellman,Fort Wayne  IN,164,34,M,22 30-39,4:57:56
+156,Gwen Vanderbosch,Fort Wayne  IN,160,29,F,4 20-29,4:58:28
+157,Clyde Shank,Plano  TX,139,62,M,6 60-69,5:01:15
+158,Walter Evans,Mooreland  IN,44,44,M,47 40-49,5:08:43
+159,Michael Petersen,Columbia City  IN,127,40,M,48 40-49,5:12:12
+160,Eileen Duchane,Grand Rapids  MI,38,50,F,6 50-59,5:14:06
+161,Bud Stiffler,Anderson  IN,193,71,M,1 70-99,5:14:48
+162,David Baer,Goshen  IN,9,53,M,29 50-59,5:15:17
+163,Thomas Podruchny,Oakville  ON,189,72,M,2 70-99,5:16:48
+164,Sara Syswerda,Middleville  MI,152,27,F,5 20-29,5:20:19
+165,Renee Loman,Gladstone  MI,103,49,F,15 40-49,5:21:00
+166,Cheryl Miller,New Haven  IN,115,40,F,16 40-49,5:21:11
+167,Steve Slattery,Cincinnati  OH,143,57,M,30 50-59,5:22:58
+168,Paul Fournier,Gurnee  IL,52,57,M,31 50-59,5:23:55
+169,Christine Fairchild,Albion  IN,46,48,F,17 40-49,5:24:13
+170,Michael Herz,Des Planes  IL,200,49,M,49 40-49,5:28:29
+171,Elaine Billes,W. Bloomfield  MI,198,51,F,7 50-59,5:29:08
+172,Cherie Gaboury,Harrison Township,54,48,F,18 40-49,5:32:27
+173,Phil Walker,Columbia City  IN,163,58,M,32 50-59,5:33:41
+174,Donald Lindley,Fort Wayne  IN,102,65,M,7 60-69,5:42:57
+175,Diane Durden,Akron  OH,41,44,F,19 40-49,5:43:16
+176,Jim Alexander,Jacksonville  IL,3,62,M,8 60-69,5:44:03
+177,Katie Zopf Swords,Farmington Hills MI,172,31,F,15 30-39,5:50:35
+178,Sharon Smith-Gizara,Eugene  OR,145,50,F,8 50-59,5:51:09
+179,Henry Dore,Green Valley  ON,36,63,M,9 60-69,6:00:09
+180,Debbie Pennington,Waukegan  IL,125,50,F,9 50-59,6:00:09

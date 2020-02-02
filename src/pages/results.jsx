@@ -35,7 +35,7 @@ class Results extends React.Component {
         <Heading message={'Results'}/>
         <label>Select a year</label>
         <Select options={yearOptions} defaultValue={yearOptions[0]} onChange={e => this.handleChange('year', e)}/>
-        <ResultType year={this.state.year}/>
+        <ResultType enJson={this.props.enJson} year={this.state.year}/>
       </div>
     );
   }
