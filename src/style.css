@@ -1,12 +1,7 @@
-#root {
-    padding-top: 70px;
-}
-
 .navbar {
     top: 0;
-    left: 0;
-    width: 100%;
-    position: fixed;
+    margin-left: 15%;
+    width: 70%;
     min-height: 70px;
     z-index: 10001;
 }
@@ -62,6 +57,13 @@
 
 svg {
     padding-left: .25vw;
+}
+.results-wrapper {
+    display:table;
+}
+
+table.results-table {
+    word-break: normal;
 }
 
 table.results-table td {

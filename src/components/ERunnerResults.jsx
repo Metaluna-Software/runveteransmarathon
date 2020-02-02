@@ -29,7 +29,6 @@ class ERunnerResults extends React.Component {
   render() {
     return (
       <div>
-        <h2>{this.props.year}</h2>
         <p><a href={this.state.overallMarathon} target='_blank'>Marathon Overall</a></p>
         <p><a href={this.state.ageGroupMarathon} target='_blank'>Marathon Age Group</a></p>
         <p><a href={this.state.overallHalfMarathon} target='_blank'>Half Marathon Overall</a></p>
