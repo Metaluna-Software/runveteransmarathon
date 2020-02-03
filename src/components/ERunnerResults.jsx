@@ -46,8 +46,7 @@ class ERunnerResults extends React.Component {
 ERunnerResults.propTypes = {
   enJson: PropTypes.object,
   year: PropTypes.string,
-  url: PropTypes.string,
-  marathonDate: PropTypes.string
+  url: PropTypes.string
 };
 
 export default ERunnerResults;

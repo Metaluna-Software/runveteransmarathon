@@ -8,7 +8,8 @@ class Section extends React.Component {
     this._isMounted = false;
     this.state = {
       message: '',
-      title: ''
+      title: '',
+      links: []
     };
   }
 
@@ -24,12 +25,12 @@ class Section extends React.Component {
           str = str.replace(/\|marathondate\|/gi, this.props.enJson.marathonDate);
         }
         str = str.replace(/<br>/gi, '\n');
-        str = str.replace(/<a.*href="(.*?)".*>(.*?)<\/a>/gi, ' $2 (Link->$1) ');
+        const links = [...str.matchAll(/<a.*href="(.*?)".*>(.*?)<\/a>/gi)];
         str = str.replace(/<(?:.|\s)*?>/g, '');
         str = str.replace(/&#8211;/gi, ':');
         str = str.replace(/&#8217;/gi, '\'');
         str = str.replace(/&nbsp;/gi, ' ');
-        this.setState({ message: str });
+        this.setState({ links: links, message: str });
       });
     if (this.props.title) {
       const title = <h2>{this.props.title}</h2>;
@@ -41,7 +42,7 @@ class Section extends React.Component {
     return (
       <div>
         {this.state.title}
-        <ParseNewLines message={this.state.message}/>
+        <ParseNewLines links={this.state.links} message={this.state.message}/>
       </div>
     );
   }
