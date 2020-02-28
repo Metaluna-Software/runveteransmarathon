@@ -29,7 +29,6 @@ class ContactUs extends React.Component {
       },
       body: JSON.stringify({ email: this.state.email, phone: this.state.phone, message: this.state.message })
     }).then(r => {
-      console.log(r.body);
       this.setState({ email: '', phone: '', message: '' });
     });
   }
