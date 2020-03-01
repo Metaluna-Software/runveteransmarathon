@@ -19,6 +19,7 @@ class ResultType extends React.Component {
 }
 
 ResultType.propTypes = {
+  enJson: PropTypes.object,
   year: PropTypes.string.isRequired
 };
 

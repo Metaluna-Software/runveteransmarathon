@@ -38,8 +38,8 @@ const ResultTable = (props) => {
 };
 
 ResultTable.propTypes = {
-  enJson: PropTypes.object,
   columns: PropTypes.array,
+  enJson: PropTypes.object,
   rows: PropTypes.array
 };
 

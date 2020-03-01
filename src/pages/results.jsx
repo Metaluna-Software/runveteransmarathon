@@ -2,6 +2,7 @@ import React from 'react';
 import Heading from '../components/heading';
 import Select from 'react-select';
 import ResultType from '../components/resultType';
+import PropTypes from 'prop-types';
 
 const yearOptions = [
   { value: '2019', label: '2019' },
@@ -40,5 +41,9 @@ class Results extends React.Component {
     );
   }
 }
+
+Results.propTypes = {
+  enJson: PropTypes.object
+};
 
 export default Results;
