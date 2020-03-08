@@ -3,6 +3,7 @@ import Heading from '../components/heading';
 import Select from 'react-select';
 import ResultType from '../components/resultType';
 import PropTypes from 'prop-types';
+import Sponsors from '../components/sponsors';
 
 const yearOptions = [
   { value: '2019', label: '2019' },
@@ -37,6 +38,7 @@ class Results extends React.Component {
         <label>Select a year</label>
         <Select options={yearOptions} defaultValue={yearOptions[0]} onChange={e => this.handleChange('year', e)}/>
         <ResultType enJson={this.props.enJson} year={this.state.year}/>
+        <Sponsors/>
       </div>
     );
   }

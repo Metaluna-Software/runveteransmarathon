@@ -26,25 +26,25 @@ class Application extends React.Component {
         <Navigation/>
         <div id='main' role='main'>
           <Switch>
-            <Route path="/results">
+            <Route path='/results'>
               <Results enJson={this.enJson()}/>
             </Route>
-            <Route path="/contact">
+            <Route path='/contact'>
               <ContactUs enJson={this.enJson()}/>
             </Route>
-            <Route path="/marathon">
+            <Route path='/marathon'>
               <Marathon enJson={this.enJson()}/>
             </Route>
-            <Route path="/halfmarathon">
+            <Route path='/halfmarathon'>
               <HalfMarathon enJson={this.enJson()}/>
             </Route>
-            <Route path="/fivek">
+            <Route path='/fivek'>
               <FiveK enJson={this.enJson()}/>
             </Route>
-            <Route path="/raceday">
+            <Route path='/raceday'>
               <RaceDay enJson={this.enJson()}/>
             </Route>
-            <Route path="/">
+            <Route path='/'>
               <Home enJson={this.enJson()}/>
             </Route>
           </Switch>

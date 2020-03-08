@@ -78,3 +78,13 @@ table.results-table th {
 table.results-table tr:nth-child(even) {
     background-color: #c4c0bf;
 }
+
+.sponsors {
+    padding: 10px;
+    height: 130px;
+    background-color: #f8f9fa;
+}
+
+.carousel {
+    height: 80px;
+}

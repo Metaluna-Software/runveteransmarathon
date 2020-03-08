@@ -2,6 +2,7 @@ import React from 'react';
 import Section from '../components/section';
 import Heading from '../components/heading';
 import PropTypes from 'prop-types';
+import Sponsors from '../components/sponsors';
 
 class RaceDay extends React.Component {
   render() {
@@ -13,6 +14,7 @@ class RaceDay extends React.Component {
         <Section url={this.props.enJson.raceDayPostRaceWP} title={'Post Race'}/>
         <Section url={this.props.enJson.raceDayAwardWP} title={'Awards'}/>
         <Section url={this.props.enJson.raceDaySpectatorWP} title={'Spectators'}/>
+        <Sponsors/>
       </div>
     );
   }

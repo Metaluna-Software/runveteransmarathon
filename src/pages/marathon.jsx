@@ -5,6 +5,7 @@ import PriceTable from '../components/priceTable';
 import ElevationMap from '../components/elevationMap';
 import CourseMap from '../components/courseMap';
 import PropTypes from 'prop-types';
+import Sponsors from '../components/sponsors';
 
 const Marathon = (props) => {
   const {
@@ -20,6 +21,7 @@ const Marathon = (props) => {
       <Section url={enJson.marathonSwagWP} enJson={enJson} title={'Gear'}/>
       <Section url={enJson.marathonAwardsWP} enJson={enJson} title={'Awards'}/>
       <Section url={enJson.marathonRecordsWP} enJson={enJson} title={'Records'}/>
+      <Sponsors/>
     </div>
   );
 };

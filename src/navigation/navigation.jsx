@@ -4,19 +4,19 @@ import PropTypes from 'prop-types';
 
 const Navigation = () => {
   return (
-    <nav className='navbar navbar-expand-lg navbar-light bg-light nav-wrapper' data-toggle="collapse"
-         data-target=".nav-collapse">
-      <a className="navbar-brand" href="/">VM</a>
-      <button className="navbar-toggler"
-              type="button"
-              data-toggle="collapse"
-              data-target="#navbarText"
-              aria-controls="navbarText"
-              aria-expanded="false"
-              aria-label="Toggle navigation">
-        <span className="navbar-toggler-icon"></span>
+    <nav className='navbar navbar-expand-lg navbar-light bg-light nav-wrapper' data-toggle='collapse'
+         data-target='.nav-collapse'>
+      <a className='navbar-brand' href='/'>VM</a>
+      <button className='navbar-toggler'
+              type='button'
+              data-toggle='collapse'
+              data-target='#navbarText'
+              aria-controls='navbarText'
+              aria-expanded='false'
+              aria-label='Toggle navigation'>
+        <span className='navbar-toggler-icon'></span>
       </button>
-      <div className="collapse navbar-collapse" id="navbarText">
+      <div className='collapse navbar-collapse' id='navbarText'>
         <ul className='navbar-nav mr-auto'>
           <li className='nav-item'>
             <Link to={'races'}

@@ -4,6 +4,7 @@ import Heading from '../components/heading';
 import PriceTable from '../components/priceTable';
 import CourseMap from '../components/courseMap';
 import PropTypes from 'prop-types';
+import Sponsors from '../components/sponsors';
 
 const FiveK = (props) => {
   const {
@@ -18,6 +19,7 @@ const FiveK = (props) => {
       <Section url={enJson.fiveKSwagWP} enJson={enJson} title={'Gear'}/>
       <Section url={enJson.fiveKAwardsWP} enJson={enJson} title={'Awards'}/>
       <Section url={enJson.fiveKRecordsWP} enJson={enJson} title={'Records'}/>
+      <Sponsors/>
     </div>
   );
 };

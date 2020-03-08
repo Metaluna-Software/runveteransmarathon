@@ -2,6 +2,7 @@ import React from 'react';
 import Heading from '../components/heading';
 import Section from '../components/section';
 import PropTypes from 'prop-types';
+import Sponsors from '../components/sponsors';
 
 class ContactUs extends React.Component {
   constructor(props) {
@@ -47,6 +48,7 @@ class ContactUs extends React.Component {
           <p><textarea rows='5' cols='60' name={'message'} value={this.state.message} onChange={this.handleChange}/></p>
           <p><input type={'submit'} value={'Send'}/></p>
         </form>
+        <Sponsors/>
       </div>
     );
   }

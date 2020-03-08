@@ -56,7 +56,7 @@ class Section extends React.Component {
     return (
       <div>
         {this.state.title}
-        {this.state.isLoading && <Spinner animation="grow" variant="primary"/>}
+        {this.state.isLoading && <Spinner animation='grow' variant='primary'/>}
         <ParseNewLines message={this.state.message}/>
       </div>
     );
