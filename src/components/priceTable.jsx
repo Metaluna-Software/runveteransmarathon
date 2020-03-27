@@ -21,7 +21,7 @@ class PriceTable extends React.Component {
       .then(data => {
         const rows = [];
         const str = data.acf[this.props.priceKey].replace(/<(?:.|\s)*?>/g, '');
-        const strArray = str.split('\r\n');
+        const strArray = str.split('\n');
         strArray.map(itemStr =>
           rows.push(itemStr.split('='))
         );

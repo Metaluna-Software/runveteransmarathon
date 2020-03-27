@@ -17,8 +17,10 @@
 }
 
 .home-title-date {
+    color: #001f3f;
     text-align: right;
     width: 100%;
+    font-weight: bold;
 }
 
 .price-table td, th {
@@ -58,8 +60,9 @@
 svg {
     padding-left: .25vw;
 }
+
 .results-wrapper {
-    display:table;
+    display: table;
 }
 
 table.results-table {
@@ -87,4 +90,12 @@ table.results-table tr:nth-child(even) {
 
 .carousel {
     height: 80px;
+}
+
+a.social {
+    padding-left: 10px;
+}
+
+a.social:hover path {
+    fill: #808080;
 }
