@@ -21,30 +21,32 @@ class Section extends React.Component {
         return r.json();
       })
       .then(data => {
-        let str = data.content.rendered;
-        if (this.props.enJson) {
-          str = str.replace(/\|marathondate\|/gi, this.props.enJson.marathonDate);
-        }
-        str = str.replace(/<br>/gi, '\n');
-
-        str = str.replace(/&#8211;/gi, ':');
-        str = str.replace(/&#8217;/gi, '\'');
-        str = str.replace(/&nbsp;/gi, ' ');
-        let messageArray = str.split('\n').filter(n => n != null).filter(n => n !== '');
-        for (let i = 0; i < messageArray.length; i++) {
-          const message = messageArray[i].trim();
-          if (message.match(/<img.*\/>/)) {
-            messageArray[i] = message.match(/http(.*?)jpg/)[0];
-          } else if (message.match(/<a.*\/>/)) {
-            const links = [...str.matchAll(/<a.*href="(.*?)".*>(.*?)<\/a>/gi)];
-            messageArray[i] = links[0];
-          } else {
-            // remove all other html tags
-            messageArray[i] = messageArray[i].replace(/<(?:.|\s)*?>/g, '');
+        if (data && data.content) {
+          let str = data.content.rendered;
+          if (this.props.enJson) {
+            str = str.replace(/\|marathondate\|/gi, this.props.enJson.marathonDate);
           }
+          str = str.replace(/<br>/gi, '\n');
+
+          str = str.replace(/&#8211;/gi, ':');
+          str = str.replace(/&#8217;/gi, '\'');
+          str = str.replace(/&nbsp;/gi, ' ');
+          let messageArray = str.split('\n').filter(n => n != null).filter(n => n !== '');
+          for (let i = 0; i < messageArray.length; i++) {
+            const message = messageArray[i].trim();
+            if (message.match(/<img.*\/>/)) {
+              messageArray[i] = message.match(/http(.*?)jpg/)[0];
+            } else if (message.match(/<a.*\/>/)) {
+              const links = [...str.matchAll(/<a.*href="(.*?)".*>(.*?)<\/a>/gi)];
+              messageArray[i] = links[0];
+            } else {
+              // remove all other html tags
+              messageArray[i] = messageArray[i].replace(/<(?:.|\s)*?>/g, '');
+            }
+          }
+          messageArray = messageArray.filter(n => n !== '');
+          this.setState({ isLoading: false, message: messageArray });
         }
-        messageArray = messageArray.filter(n => n !== '');
-        this.setState({ isLoading: false, message: messageArray });
       });
     if (this.props.title) {
       const title = <h2>{this.props.title}</h2>;
@@ -54,9 +56,10 @@ class Section extends React.Component {
 
   render() {
     return (
-      <div>
+      <div className={`${this.props.background ? 'info-message' : ''}`}>
         {this.state.title}
         {this.state.isLoading && <Spinner animation='grow' variant='primary'/>}
+        {this.props.important && <span><i className='fas fa-exclamation-circle'></i><span>&nbsp;&nbsp;Notice</span></span>}
         <ParseNewLines message={this.state.message}/>
       </div>
     );

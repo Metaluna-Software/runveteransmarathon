@@ -44,6 +44,7 @@ class Home extends React.Component {
             </svg>
           </a>
         </p>
+        <Section url={this.props.enJson.homeCovidWP} background={true} important={true}/>
         <h2 className={'home-title'}>Veterans Marathon and Heroes 5k</h2>
         <Banner/>
         <Section url={this.props.enJson.homeWelcomeWP}/>

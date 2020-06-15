@@ -99,3 +99,7 @@ a.social {
 a.social:hover path {
     fill: #808080;
 }
+
+.info-message {
+    background-color:#ccccff;
+}

@@ -2,6 +2,7 @@
   "marathonDate": "Nov 14th, 2020",
   "homeBanner": "Veterans Marathon and Heroes 5k",
   "homeWelcomeWP": "https://runveteransmarathonwp.com/wp-json/wp/v2/posts/1",
+  "homeCovidWP": "https://runveteransmarathonwp.com/wp-json/wp/v2/posts/188",
   "raceDayScheduleHeader": "Schedule of Events",
   "raceDayScheduleWP": "https://runveteransmarathonwp.com/wp-json/wp/v2/posts/19",
   "raceDayParkingHeader": "Parking",
