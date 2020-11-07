@@ -25,19 +25,19 @@ const Navigation = () => {
                   aria-haspopup='true'
                   aria-expanded='false'>Races</Link>
             <div className='dropdown-menu'>
-              <Link className='dropdown-item' to='marathon'>Marathon</Link>
-              <Link className='dropdown-item' to='halfmarathon'>Half-marathon</Link>
-              <Link className='dropdown-item' to='fivek'>5k</Link>
+              <Link className='dropdown-item' to='marathon.html'>Marathon</Link>
+              <Link className='dropdown-item' to='halfmarathon.html'>Half-marathon</Link>
+              <Link className='dropdown-item' to='fivek.html'>5k</Link>
             </div>
           </li>
           <li className='nav-item'>
-            <Link to='/raceday' className='nav-link' aria-haspopup='true' aria-expanded='false'>Race Day</Link>
+            <Link to='raceday.html' className='nav-link' aria-haspopup='true' aria-expanded='false'>Race Day</Link>
           </li>
           <li className='nav-item'>
-            <Link to='results' className='nav-link'>Results</Link>
+            <Link to='results.html' className='nav-link'>Results</Link>
           </li>
           <li className='nav-item'>
-            <Link to='contact' className='nav-link'>Contact Us</Link>
+            <Link to='contact.html' className='nav-link'>Contact Us</Link>
           </li>
           <li className='nav-item'>
             <a href='https://runsignup.com/Race/IN/ColumbiaCity/VeteransMarathon' target='_blank'

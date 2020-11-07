@@ -11,7 +11,7 @@ class ResultType extends React.Component {
       );
     }
     return (
-      <div>
+      <div className='sponsor-padding'>
         <TimeToRunResults year={this.props.year}/>
       </div>
     );

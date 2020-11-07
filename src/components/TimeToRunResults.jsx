@@ -69,6 +69,13 @@ class TimeToRunResults extends React.Component {
         const prefix = '../results';
         const csvPath = path.join(prefix, this.props.year + '-' + this.state.race + '-overall.csv');
         const r = await d3.csv(csvPath);
+        if(r.columns && r.columns.length > 0) {
+          if(r.columns[0].indexOf("DOCTYPE") > 0) {
+            console.warn('No results found for race type and year');
+            this.setState({ error: 'No results found' });
+            return { rows: [], columns: [] };
+          }
+        }
         return {
           rows: r,
           columns: r.columns
@@ -79,7 +86,6 @@ class TimeToRunResults extends React.Component {
     } catch (e) {
       console.warn('No results found for race type and year');
       this.setState({ error: 'No results found' });
-      return { rows: [], columns: [] };
     }
   }
 

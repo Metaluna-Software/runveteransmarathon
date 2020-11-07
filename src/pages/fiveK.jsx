@@ -15,7 +15,7 @@ const FiveK = (props) => {
       <Heading message={enJson.fiveKTitle}/>
       <Section url={enJson.fiveKDetailsWP} enJson={enJson}/>
       <PriceTable url={enJson.priceWP} priceKey='5k_prices' columns={enJson.priceColumns}/>
-      <CourseMap name={'../images/USATF-Map-5k-VM17.png'}/>
+      <CourseMap name={'../images/Heroes_5k_course.JPG'}/>
       <Section url={enJson.fiveKSwagWP} enJson={enJson} title={'Gear'}/>
       <Section url={enJson.fiveKAwardsWP} enJson={enJson} title={'Awards'}/>
       <Section url={enJson.fiveKRecordsWP} enJson={enJson} title={'Records'}/>

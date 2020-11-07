@@ -7,7 +7,7 @@ const ManifestPlugin = require('webpack-manifest-plugin');
 const CopyWebpackPlugin = require('copy-webpack-plugin');
 
 const srcPath = path.join(__dirname, 'src');
-const pubPath = path.join(__dirname, 'public');
+const pubPath = path.join(__dirname, 'build');
 
 module.exports = {
   entry: './src/index.js',

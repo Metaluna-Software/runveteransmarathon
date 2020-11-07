@@ -3,6 +3,7 @@ import Banner from '../navigation/banner';
 import Section from '../components/section';
 import PropTypes from 'prop-types';
 import Sponsors from '../components/sponsors';
+import Donors from '../components/donors';
 
 class Home extends React.Component {
   render() {
@@ -49,6 +50,7 @@ class Home extends React.Component {
         <Banner/>
         <Section url={this.props.enJson.homeWelcomeWP}/>
         <Sponsors/>
+        <Donors/>
       </div>
     );
   }

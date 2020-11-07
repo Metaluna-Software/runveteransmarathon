@@ -34,20 +34,20 @@
   "results": {
     "columns": ["Race", "Result"],
     "2019": {
-      "overallMarathon": "https://www.erunner.biz/results/2019-veterans-marathon-overall-results-marathon-d929",
-      "overallHalfMarathon": "https://www.erunner.biz/results/2019-veterans-marathon-overall-finish-list-half-marathon-fbca",
-      "overallFiveK": "https://www.erunner.biz/results/2019-veterans-marathon-overall-finish-list-5k-b368",
-      "ageGroupMarathon": "https://www.erunner.biz/results/2019-veterans-marathon-age-group-results-marathon-e1a0",
-      "ageGroupHalfMarathon": "https://www.erunner.biz/results/2019-veterans-marathon-age-group-results-half-marathon-839c",
-      "ageGroupFiveK": "https://www.erunner.biz/results/2019-veterans-marathon-age-group-results-5k-d0be"
+      "overallMarathon": "http://www.erunner.biz/results/2019-veterans-marathon-overall-results-marathon-d929",
+      "overallHalfMarathon": "http://www.erunner.biz/results/2019-veterans-marathon-overall-finish-list-half-marathon-fbca",
+      "overallFiveK": "http://www.erunner.biz/results/2019-veterans-marathon-overall-finish-list-5k-b368",
+      "ageGroupMarathon": "http://www.erunner.biz/results/2019-veterans-marathon-age-group-results-marathon-e1a0",
+      "ageGroupHalfMarathon": "http://www.erunner.biz/results/2019-veterans-marathon-age-group-results-half-marathon-839c",
+      "ageGroupFiveK": "http://www.erunner.biz/results/2019-veterans-marathon-age-group-results-5k-d0be"
     },
     "2018": {
-      "overallMarathon": "https://www.erunner.biz/results/2018-veterans-marathon-marathon-overall-d8c6",
-      "overallHalfMarathon": "https://www.erunner.biz/results/2018-veterans-marathon-half-marathon-overall-dbbc",
-      "overallFiveK": "https://www.erunner.biz/results/2018-veterans-marathon-5k-overall-b712",
-      "ageGroupMarathon": "https://www.erunner.biz/results/2018-veterans-marathon-marathon-age-group-974a",
-      "ageGroupHalfMarathon": "https://www.erunner.biz/results/2018-veterans-marathon-half-marathon-age-group-f4c2",
-      "ageGroupFiveK": "https://www.erunner.biz/results/2018-veterans-marathon-5k-age-group-5430"
+      "overallMarathon": "http://www.erunner.biz/results/2018-veterans-marathon-marathon-overall-d8c6",
+      "overallHalfMarathon": "http://www.erunner.biz/results/2018-veterans-marathon-half-marathon-overall-dbbc",
+      "overallFiveK": "http://www.erunner.biz/results/2018-veterans-marathon-5k-overall-b712",
+      "ageGroupMarathon": "http://www.erunner.biz/results/2018-veterans-marathon-marathon-age-group-974a",
+      "ageGroupHalfMarathon": "http://www.erunner.biz/results/2018-veterans-marathon-half-marathon-age-group-f4c2",
+      "ageGroupFiveK": "http://www.erunner.biz/results/2018-veterans-marathon-5k-age-group-5430"
     }
   }
 }

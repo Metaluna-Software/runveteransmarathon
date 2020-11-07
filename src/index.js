@@ -6,9 +6,9 @@ import '@fortawesome/fontawesome-free/js/solid';
 import '@fortawesome/fontawesome-free/js/regular';
 import '@fortawesome/fontawesome-free/js/brands';
 import Application from './application';
-import ReactDOM from 'react-dom';
 import React from 'react';
+import { render } from 'react-snapshot';
 
 const domRoot = document.getElementById('root');
 
-ReactDOM.render(<Application/>, domRoot);
+render(<Application/>, domRoot);
