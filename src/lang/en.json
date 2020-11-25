@@ -33,6 +33,14 @@
   "contactUsDetailWP": "https://runveteransmarathonwp.com/wp-json/wp/v2/posts/60",
   "results": {
     "columns": ["Race", "Result"],
+    "2020": {
+      "overallMarathon": "http://www.erunner.biz/results/2020-veterans-marathon-marathon-overall-71af",
+      "overallHalfMarathon": "http://www.erunner.biz/results/2020-veterans-marathon-half-marathon-overall-a5d3",
+      "overallFiveK": "http://www.erunner.biz/results/2020-veterans-marathon-heroes-5k-overall-finish-list-1370",
+      "ageGroupMarathon": "http://www.erunner.biz/results/2020-veterans-marathon-marathon-age-group-5dd6",
+      "ageGroupHalfMarathon": "http://www.erunner.biz/results/2020-veterans-marathon-half-marathon-age-group-54ec",
+      "ageGroupFiveK": "http://www.erunner.biz/results/2020-veterans-marathon-heroes-5k-age-group-f0f7"
+    },
     "2019": {
       "overallMarathon": "http://www.erunner.biz/results/2019-veterans-marathon-overall-results-marathon-d929",
       "overallHalfMarathon": "http://www.erunner.biz/results/2019-veterans-marathon-overall-finish-list-half-marathon-fbca",

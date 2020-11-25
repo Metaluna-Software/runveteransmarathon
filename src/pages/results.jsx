@@ -6,6 +6,7 @@ import PropTypes from 'prop-types';
 import Sponsors from '../components/sponsors';
 
 const yearOptions = [
+  { value: '2020', label: '2020' },
   { value: '2019', label: '2019' },
   { value: '2018', label: '2018' },
   { value: '2017', label: '2017' },
@@ -23,7 +24,7 @@ class Results extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
-      year: '2019'
+      year: '2020'
     };
   }
 

@@ -34,8 +34,17 @@ class Section extends React.Component {
           let messageArray = str.split('\n').filter(n => n != null).filter(n => n !== '');
           for (let i = 0; i < messageArray.length; i++) {
             const message = messageArray[i].trim();
+            let item;
             if (message.match(/<img.*\/>/)) {
-              messageArray[i] = message.match(/http(.*?)jpg/)[0];
+               item = message.match(/http(.*?)jpg/);
+              if(item){
+                messageArray[i] = item[0];
+              } else {
+                item = message.match(/http(.*?)jpeg/);
+                if(item) {
+                  messageArray[i] = item[0];
+                }
+              }
             } else if (message.match(/<a.*\/>/)) {
               const links = [...str.matchAll(/<a.*href="(.*?)".*>(.*?)<\/a>/gi)];
               messageArray[i] = links[0];

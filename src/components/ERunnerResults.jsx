@@ -15,6 +15,16 @@ class ERunnerResults extends React.Component {
   }
 
   componentDidMount() {
+    this.update()
+  }
+
+  componentDidUpdate(prevProps, prevState, snapshot) {
+    if (prevProps.year !== this.props.year) {
+      this.update()
+    }
+  }
+
+  update() {
     if (this.props.enJson && this.props.enJson.results) {
       this.setState({
         overallMarathon: this.props.enJson.results[this.props.year].overallMarathon,
