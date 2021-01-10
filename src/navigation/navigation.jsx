@@ -40,6 +40,9 @@ const Navigation = () => {
             <Link to='contact.html' className='nav-link'>Contact Us</Link>
           </li>
           <li className='nav-item'>
+            <Link to='faq.html' className='nav-link'>FAQ</Link>
+          </li>
+          <li className='nav-item'>
             <a href='https://runsignup.com/Race/IN/ColumbiaCity/VeteransMarathon' target='_blank'
                rel='noopener noreferrer' className='nav-link'>Register
               <i className='fas fa-external-link-alt padding-left-one'></i>

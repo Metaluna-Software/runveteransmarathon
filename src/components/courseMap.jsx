@@ -1,20 +1,14 @@
 import React from 'react';
-import PropTypes from 'prop-types';
 
-const CourseMap = (props) => {
-  const {
-    name = ''
-  } = props;
+const CourseMap = () => {
   return (
     <div>
       <h2>Course map</h2>
-      <img src={name} alt='course map'/>
+      <iframe id="mapmyfitness_route"
+              src="//snippets.mapmycdn.com/routes/view/embedded/3767468614?width=600&height=400&elevation=true&info=true&line_color=E6e60716&rgbhex=1607e6&distance_markers=0&unit_type=imperial&map_mode=HYBRID&last_updated=2020-12-10T08:35:33-05:00"
+              height="660px" width="100%" frameBorder="0"/>
     </div>
   );
-};
-
-CourseMap.propTypes = {
-  name: PropTypes.string
 };
 
 export default CourseMap;

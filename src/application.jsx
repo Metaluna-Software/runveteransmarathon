@@ -10,6 +10,7 @@ import FiveK from './pages/fiveK';
 import enData from './lang/en.json';
 import ContactUs from './pages/contactUs';
 import Results from './pages/results';
+import Faq from './pages/faq';
 
 class Application extends React.Component {
   constructor(props) {
@@ -31,6 +32,9 @@ class Application extends React.Component {
             </Route>
             <Route path='/contact.html'>
               <ContactUs enJson={this.enJson()}/>
+            </Route>
+            <Route path='/faq.html'>
+              <Faq enJson={this.enJson()}/>
             </Route>
             <Route path='/marathon.html'>
               <Marathon enJson={this.enJson()}/>

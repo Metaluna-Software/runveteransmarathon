@@ -36,18 +36,20 @@ class Section extends React.Component {
             const message = messageArray[i].trim();
             let item;
             if (message.match(/<img.*\/>/)) {
-               item = message.match(/http(.*?)jpg/);
-              if(item){
+              item = message.match(/http(.*?)jpg/);
+              if (item) {
                 messageArray[i] = item[0];
               } else {
                 item = message.match(/http(.*?)jpeg/);
-                if(item) {
+                if (item) {
                   messageArray[i] = item[0];
                 }
               }
             } else if (message.match(/<a.*\/>/)) {
               const links = [...str.matchAll(/<a.*href="(.*?)".*>(.*?)<\/a>/gi)];
               messageArray[i] = links[0];
+            } else if (message.match(/<strong>/)) {
+              messageArray[i] = message.match(/<strong>(.*)/gi)[0]
             } else {
               // remove all other html tags
               messageArray[i] = messageArray[i].replace(/<(?:.|\s)*?>/g, '');
@@ -68,8 +70,10 @@ class Section extends React.Component {
       <div className={`${this.props.background ? 'info-message' : ''}`}>
         {this.state.title}
         {this.state.isLoading && <Spinner animation='grow' variant='primary'/>}
-        {this.props.important && <span><i className='fas fa-exclamation-circle'></i><span>&nbsp;&nbsp;Notice</span></span>}
+        {this.props.important &&
+        <span><i className='fas fa-exclamation-circle'></i><span>&nbsp;&nbsp;Notice</span></span>}
         <ParseNewLines message={this.state.message}/>
+        {this.props.image && <a href={this.props.image} target="_blank"><img src={this.props.image} alt='image'/></a>}
       </div>
     );
   }
@@ -78,6 +82,8 @@ class Section extends React.Component {
 Section.propTypes = {
   enJson: PropTypes.object,
   title: PropTypes.string,
+  important: PropTypes.bool,
+  image: PropTypes.string,
   message: PropTypes.string,
   url: PropTypes.string,
   marathonDate: PropTypes.string

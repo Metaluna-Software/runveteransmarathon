@@ -10,7 +10,7 @@ class RaceDay extends React.Component {
       <div className={'section-wrapper'}>
         <Heading message={'Day of the Race'}/>
         <Section url={this.props.enJson.raceDayScheduleWP} title={'Schedule of Events'}/>
-        <Section url={this.props.enJson.raceDayParkingWP} title={'Parking'}/>
+        <Section url={this.props.enJson.raceDayParkingWP} title={'Parking'} image='images/parking.jpg' />
         <Section url={this.props.enJson.raceDayPostRaceWP} title={'Post Race'}/>
         <Section url={this.props.enJson.raceDayAwardWP} title={'Awards'}/>
         <Section url={this.props.enJson.raceDaySpectatorWP} title={'Spectators'}/>

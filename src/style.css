@@ -37,6 +37,14 @@
     background-color: #464646;
 }
 
+.banner-wrapper {
+    color: #464646;
+}
+
+.banner-wrapper img {
+    width: 100%;
+}
+
 @media only screen and (max-width: 767px) {
     .section-image-wrapper {
         background-image: url('/images/background-mobile.jpg');
@@ -96,12 +104,22 @@ table.results-table tr:nth-child(even) {
     max-height: 60px;
 }
 
-.carousel {
-    height: 80px;
+.carousel-indicators {
+    height: 10px;
+    margin-bottom: 10px;
 }
-
-.carousel-control-prev-icon {
+.carousel-control-prev {
+    width: 0;
+    height: 0;
     background-image: none;
+}
+.carousel-control-next {
+    width: 0;
+    height: 0;
+    background-image: none;
+}
+.carousel-indicators li {
+    background-color: #747373;
 }
 
 a.social {

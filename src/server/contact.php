@@ -15,7 +15,7 @@ $email = $input['email'];
 $phone = $input['phone'];
 $message = $input['message'];
 $from = 'admin@runveteransmarathon.com';
-$to = 'snbird11@gmail.com,sethrgbird@gmail.com,jbird670@gmail.com';
+$to = 'veteransmarathon@gmail.com';
 $reply = $to;
 if (isset($email)) {
     $reply = $email;
