@@ -1,10 +1,10 @@
 import React from 'react';
-import Section from '../components/section';
-import Heading from '../components/heading';
-import PriceTable from '../components/priceTable';
-import CourseMap from '../components/courseMap';
+import Section from '../../components/section';
+import Heading from '../../components/heading';
+import PriceTable from '../../components/priceTable';
+import CourseMap from '../../components/courseMap';
 import PropTypes from 'prop-types';
-import Sponsors from '../components/sponsors';
+import Sponsors from '../../components/sponsors';
 
 const HalfMarathon = (props) => {
   const {
@@ -15,7 +15,7 @@ const HalfMarathon = (props) => {
       <Heading message={enJson.halfMarathonTitle}/>
       <Section url={enJson.halfMarathonDetailsWP} enJson={enJson}/>
       <PriceTable url={enJson.priceWP} priceKey='half_marathon_prices' columns={enJson.priceColumns}/>
-      <CourseMap/>
+      <CourseMap enJson={enJson} course="half"/>
       <Section url={enJson.halfmarathonSwagWP} enJson={enJson} title={'Gear'}/>
       <Section url={enJson.halfmarathonAwardsWP} enJson={enJson} title={'Awards'}/>
       <Section url={enJson.halfmarathonRecordsWP} enJson={enJson} title={'Records'}/>

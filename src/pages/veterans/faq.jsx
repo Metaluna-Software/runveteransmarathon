@@ -1,8 +1,8 @@
 import React from 'react';
-import Heading from '../components/heading';
-import Section from '../components/section';
+import Heading from '../../components/heading';
+import Section from '../../components/section';
 import PropTypes from 'prop-types';
-import Sponsors from '../components/sponsors';
+import Sponsors from '../../components/sponsors';
 
 class Faq extends React.Component {
   constructor(props) {

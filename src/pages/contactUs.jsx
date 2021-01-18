@@ -37,7 +37,6 @@ class ContactUs extends React.Component {
   render() {
     return (
       <div className={'section-wrapper'}>
-        <Heading message={'Contact Us'}/>
         <Section url={this.props.enJson.contactUsDetailWP}/>
         <form onSubmit={this.handleSubmit}>
           <p><label>Your email:</label></p>

@@ -1,14 +1,25 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 
-const CourseMap = () => {
+const CourseMap = (props) => {
+  const {
+    enJson,
+    course
+  } = props;
+
   return (
     <div>
       <h2>Course map</h2>
       <iframe id="mapmyfitness_route"
-              src="//snippets.mapmycdn.com/routes/view/embedded/3767468614?width=600&height=400&elevation=true&info=true&line_color=E6e60716&rgbhex=1607e6&distance_markers=0&unit_type=imperial&map_mode=HYBRID&last_updated=2020-12-10T08:35:33-05:00"
+              src={enJson.course[course]}
               height="660px" width="100%" frameBorder="0"/>
     </div>
   );
+};
+
+CourseMap.propTypes = {
+  enJson: PropTypes.object,
+  course: PropTypes.string
 };
 
 export default CourseMap;

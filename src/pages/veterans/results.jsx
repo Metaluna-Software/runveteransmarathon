@@ -1,9 +1,9 @@
 import React from 'react';
-import Heading from '../components/heading';
+import Heading from '../../components/heading';
 import Select from 'react-select';
-import ResultType from '../components/resultType';
+import ResultType from '../../components/resultType';
 import PropTypes from 'prop-types';
-import Sponsors from '../components/sponsors';
+import Sponsors from '../../components/sponsors';
 
 const yearOptions = [
   { value: '2020', label: '2020' },

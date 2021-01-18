@@ -1,11 +1,11 @@
 import React from 'react';
-import Banner from '../navigation/banner';
-import Section from '../components/section';
+import Banner from '../../navigation/banner';
+import Section from '../../components/section';
 import PropTypes from 'prop-types';
-import Sponsors from '../components/sponsors';
-import Donors from '../components/donors';
+import Sponsors from '../../components/sponsors';
+import Donors from '../../components/donors';
 
-class Home extends React.Component {
+class VeteransHome extends React.Component {
   render() {
     return (
       <div className='section-wrapper'>
@@ -55,10 +55,10 @@ class Home extends React.Component {
   }
 }
 
-Home.propTypes = {
+VeteransHome.propTypes = {
   enJson: PropTypes.object,
   marathonDate: PropTypes.string,
   homeWelcomeWP: PropTypes.string
 };
 
-export default Home;
+export default VeteransHome;

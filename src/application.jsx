@@ -2,15 +2,9 @@ import React from 'react';
 import './style.css';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import Navigation from './navigation/navigation';
-import Home from './pages/home';
-import RaceDay from './pages/raceDay';
-import HalfMarathon from './pages/halfMarathon';
-import Marathon from './pages/marathon';
-import FiveK from './pages/fiveK';
 import enData from './lang/en.json';
 import ContactUs from './pages/contactUs';
-import Results from './pages/results';
-import Faq from './pages/faq';
+import VeteransPage from './pages/veterans';
 
 class Application extends React.Component {
   constructor(props) {
@@ -27,29 +21,14 @@ class Application extends React.Component {
         <Navigation/>
         <div id='main' role='main'>
           <Switch>
-            <Route path='/results.html'>
-              <Results enJson={this.enJson()}/>
-            </Route>
             <Route path='/contact.html'>
               <ContactUs enJson={this.enJson()}/>
             </Route>
-            <Route path='/faq.html'>
-              <Faq enJson={this.enJson()}/>
-            </Route>
-            <Route path='/marathon.html'>
-              <Marathon enJson={this.enJson()}/>
-            </Route>
-            <Route path='/halfmarathon.html'>
-              <HalfMarathon enJson={this.enJson()}/>
-            </Route>
-            <Route path='/fivek.html'>
-              <FiveK enJson={this.enJson()}/>
-            </Route>
-            <Route path='/raceday.html'>
-              <RaceDay enJson={this.enJson()}/>
+            <Route path='/veterans.html'>
+              <VeteransPage enJson={this.enJson()}/>
             </Route>
             <Route path='/'>
-              <Home enJson={this.enJson()}/>
+              <VeteransPage enJson={this.enJson()}/>
             </Route>
           </Switch>
         </div>
