@@ -26,6 +26,7 @@ const Navigation = () => {
                   aria-expanded='false'>Events</Link>
             <div className='dropdown-menu'>
               <Link className='dropdown-item' to='veterans.html'>Veterans Marathon</Link>
+              <Link className='dropdown-item' to='memorial.html'>Memorial Day 10k</Link>
             </div>
           </li>
           <li className='nav-item'>

@@ -5,6 +5,7 @@ import Navigation from './navigation/navigation';
 import enData from './lang/en.json';
 import ContactUs from './pages/contactUs';
 import VeteransPage from './pages/veterans';
+import MemorialPage from './pages/memorial';
 
 class Application extends React.Component {
   constructor(props) {
@@ -26,6 +27,9 @@ class Application extends React.Component {
             </Route>
             <Route path='/veterans.html'>
               <VeteransPage enJson={this.enJson()}/>
+            </Route>
+            <Route path='/memorial.html'>
+              <MemorialPage enJson={this.enJson()}/>
             </Route>
             <Route path='/'>
               <VeteransPage enJson={this.enJson()}/>

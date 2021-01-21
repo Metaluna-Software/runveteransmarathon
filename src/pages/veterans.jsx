@@ -8,8 +8,8 @@ import FiveK from './veterans/fiveK';
 import enData from '../lang/en.json';
 import Results from './veterans/results';
 import Faq from './veterans/faq';
-import VeteransNavigation from '../navigation/veterans/navigation';
-import VeteransHome from './veterans/home';
+import VeteransNavigation from '../navigation/veteransnavigation';
+import VeteransHome from './veterans/veteranshome';
 
 class VeteransPage extends React.Component {
   constructor(props) {

@@ -1,16 +1,20 @@
 {
   "marathonDate": "Nov 13th, 2021",
+  "memRaceDate": "May 31st, 2021",
   "homeBanner": "Veterans Marathon and Heroes 5k",
   "homeWelcomeWP": "https://runveteransmarathonwp.com/wp-json/wp/v2/posts/1",
+  "memHomeWelcomeWP": "https://runveteransmarathonwp.com/wp-json/wp/v2/posts/249",
   "homeCovidWP": "https://runveteransmarathonwp.com/wp-json/wp/v2/posts/188",
   "raceDayScheduleHeader": "Schedule of Events",
   "raceDayScheduleWP": "https://runveteransmarathonwp.com/wp-json/wp/v2/posts/19",
+  "memRaceDayScheduleWP": "https://runveteransmarathonwp.com/wp-json/wp/v2/posts/251",
   "raceDayParkingHeader": "Parking",
   "raceDayParkingWP": "https://runveteransmarathonwp.com/wp-json/wp/v2/posts/17",
   "raceDayPostRaceHeader": "Post Race",
   "raceDayPostRaceWP": "https://runveteransmarathonwp.com/wp-json/wp/v2/posts/21",
   "raceDayAwardHeader": "Awards",
   "raceDayAwardWP": "https://runveteransmarathonwp.com/wp-json/wp/v2/posts/23",
+  "memRaceDayAwardWP": "https://runveteransmarathonwp.com/wp-json/wp/v2/posts/253",
   "raceDaySpectatorHeader": "Spectators",
   "raceDaySpectatorWP": "https://runveteransmarathonwp.com/wp-json/wp/v2/posts/25",
   "marathonTitle": "Marathon",
@@ -18,6 +22,7 @@
   "marathonSwagWP": "https://runveteransmarathonwp.com/wp-json/wp/v2/posts/45",
   "marathonAwardsWP": "https://runveteransmarathonwp.com/wp-json/wp/v2/posts/47",
   "marathonRecordsWP": "https://runveteransmarathonwp.com/wp-json/wp/v2/posts/49",
+  "memorial10kTitle": "Memorial Day 10k",
   "halfMarathonTitle": "Half-Marathon",
   "halfMarathonDetailsWP": "https://runveteransmarathonwp.com/wp-json/wp/v2/posts/32",
   "halfmarathonSwagWP": "https://runveteransmarathonwp.com/wp-json/wp/v2/posts/51",
@@ -35,7 +40,8 @@
   "course": {
     "marathon": "//snippets.mapmycdn.com/routes/view/embedded/4052569090?width=600&height=400&elevation=true&line_color=E6d90d25&rgbhex=250dd9&distance_markers=1&unit_type=imperial&map_mode=HYBRID&last_updated=2021-01-12T10:09:41-05:00&show_marker_every=2",
     "half": "//snippets.mapmycdn.com/routes/view/embedded/3767468614?width=600&height=400&elevation=true&line_color=E6d90d1a&rgbhex=1a0dd9&distance_markers=1&unit_type=imperial&map_mode=HYBRID&last_updated=2020-12-10T08:35:33-05:00",
-    "fiveK": "//snippets.mapmycdn.com/routes/view/embedded/4052534368?width=600&height=400&elevation=true&line_color=E60f0bdb&rgbhex=DB0B0E&distance_markers=1&unit_type=imperial&map_mode=HYBRID&last_updated=2021-01-12T10:01:23-05:00"
+    "fiveK": "//snippets.mapmycdn.com/routes/view/embedded/4052534368?width=600&height=400&elevation=true&line_color=E60f0bdb&rgbhex=DB0B0E&distance_markers=1&unit_type=imperial&map_mode=HYBRID&last_updated=2021-01-12T10:01:23-05:00",
+    "memorial10k": "//snippets.mapmycdn.com/routes/view/embedded/4053684712?width=600&height=400&elevation=true&info=true&line_color=E6d92f0d&rgbhex=0d2fd9&distance_markers=1&unit_type=imperial&map_mode=ROADMAP&last_updated=2021-01-19T16:18:05-05:00"
   },
   "results": {
     "columns": ["Race", "Result"],

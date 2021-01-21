@@ -6,7 +6,7 @@ const VeteransNavigation = () => {
   return (
     <nav className='navbar navbar-expand-lg navbar-light bg-light nav-wrapper' data-toggle='collapse'
          data-target='.nav-collapse' id='veterans'>
-      <a className='navbar-brand' href='/'>VM</a>
+      <a className='navbar-brand' href='/veterans.html'>VM</a>
       <div className='collapse navbar-collapse' id='navbarText'>
         <ul className='navbar-nav mr-auto'>
           <li className='nav-item'>
