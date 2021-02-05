@@ -10,7 +10,7 @@ const MemorialNavigation = () => {
       <div className='collapse navbar-collapse' id='navbarText'>
         <ul className='navbar-nav mr-auto'>
           <li className='nav-item'>
-            <Link to='memorialraceday.html' className='nav-link' aria-haspopup='true' aria-expanded='false'>Race Day</Link>
+            <Link to='memorialraceday.html' className='nav-link' aria-haspopup='true' aria-expanded='false'>Race Info</Link>
           </li>
           <li className='nav-item'>
             <Link to='memorial10kcourse.html' className='nav-link'>Map</Link>
