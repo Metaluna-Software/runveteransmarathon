@@ -7,6 +7,7 @@ class MemorialHome extends React.Component {
   render() {
     return (
       <div className='section-wrapper'>
+        <h2 className={'home-title'}>Memorial Day 10k</h2>
         <p className={'home-title-date'}>{this.props.enJson.memRaceDate}
           <a className="social" href="https://www.facebook.com/events/242992727265363/" target="_blank">
             <svg version="1.1" id="facebookSvg" x="0px" y="0px" width="24px" height="24px"
@@ -43,7 +44,11 @@ class MemorialHome extends React.Component {
             </svg>
           </a>
         </p>
-        <h2 className={'home-title'}>Memorial Day 10k</h2>
+        <p className={'home-title-date'}>
+          <a href='https://www.facebook.com/EpicRacingEvents/'>
+            <img src='../images/epic-logo.png' alt='epic-logo' className='epic-logo'/>
+          </a>
+        </p>
         <MemorialBanner/>
         <Section url={this.props.enJson.memHomeWelcomeWP}/>
       </div>
