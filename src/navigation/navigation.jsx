@@ -4,7 +4,7 @@ import PropTypes from 'prop-types';
 
 const Navigation = () => {
   return (
-    <nav className='navbar navbar-expand-lg navbar-dark bg-secondary nav-wrapper parent-nav' data-toggle='collapse'
+    <nav className='navbar navbar-expand-lg navbar-custom-50 bg-secondary nav-wrapper parent-nav' data-toggle='collapse'
          data-target='.nav-collapse'>
       <span className="navbar-text"><strong>Veterans Marathon Races</strong></span>
       <button className='navbar-toggler'
@@ -20,7 +20,7 @@ const Navigation = () => {
         <ul className='navbar-nav mr-auto'>
           <li className='nav-item'>
             <Link to={'events'}
-                  className='nav-link dropdown-toggle'
+                  className='nav-link dropdown-toggle navbar-custom-90'
                   data-toggle='dropdown'
                   aria-haspopup='true'
                   aria-expanded='false'>Events</Link>
@@ -30,7 +30,7 @@ const Navigation = () => {
             </div>
           </li>
           <li className='nav-item'>
-            <Link to='contact.html' className='nav-link'>Contact Us</Link>
+            <Link to='contact.html' className='nav-link navbar-custom-90'>Contact Us</Link>
           </li>
         </ul>
       </div>

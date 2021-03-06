@@ -18,6 +18,13 @@
     color: #001f3f;
     display: inline;
 }
+.title-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: stretch;
+}
 
 .home-title-date {
     color: #001f3f;
@@ -42,6 +49,21 @@
 
 .banner-wrapper {
     color: #464646;
+}
+
+.bg-secondary {
+    background-color: #103250!important;
+}
+
+.navbar-custom-50 {
+    color: rgb(255,255,255,50%)!important;
+}
+.navbar-custom-90 {
+    color: rgb(255,255,255,90%)!important;
+}
+
+.memorial-info-link {
+    font-weight: bold;
 }
 
 .memorial-banner-img {
