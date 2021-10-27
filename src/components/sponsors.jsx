@@ -9,12 +9,6 @@ const Sponsors = () => {
     <div className='thank-you-heading h2'><span>Thank you to our sponsors</span>
       <Carousel controls={controls} interval={interval}>
         <Carousel.Item>
-          <img className='d-block w-90' src='../images/sponsors/parkview-health-logo-lg.svg' alt='Parkview'/>
-        </Carousel.Item>
-        <Carousel.Item>
-          <img className='d-block w-90' src='../images/sponsors/SDI_no-inc_RGB.gif' alt='sdi'/>
-        </Carousel.Item>
-        <Carousel.Item>
           <img className='d-block w-90' src='../images/sponsors/gatorade.png' alt='gatorade'/>
         </Carousel.Item>
         <Carousel.Item>
