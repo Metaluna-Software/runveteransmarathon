@@ -4,10 +4,10 @@ import PropTypes from 'prop-types';
 
 const Navigation = () => {
   return (
-    <nav className='navbar navbar-expand-lg navbar-custom-50 bg-secondary nav-wrapper parent-nav' data-toggle='collapse'
+    <nav className='navbar navbar-expand-lg navbar-light navbar-custom-50 bg-secondary nav-wrapper parent-nav' data-toggle='collapse'
          data-target='.nav-collapse'>
-      <span className="navbar-text"><strong>Veterans Marathon Races</strong></span>
-      <button className='navbar-toggler'
+      <span className="navbar-text font-white"><strong>Veterans Marathon Races</strong></span>
+      <button className='navbar-toggler background-white'
               type='button'
               data-toggle='collapse'
               data-target='#navbarText'
