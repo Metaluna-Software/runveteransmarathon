@@ -10,7 +10,8 @@ class ERunnerResults extends React.Component {
       overallFiveK: '',
       ageGroupMarathon: '',
       ageGroupHalfMarathon: '',
-      ageGroupFiveK: ''
+      ageGroupFiveK: '',
+      teamFiveK: ''
     };
   }
 
@@ -32,7 +33,8 @@ class ERunnerResults extends React.Component {
         overallFiveK: this.props.enJson.results[this.props.year].overallFiveK,
         ageGroupMarathon: this.props.enJson.results[this.props.year].ageGroupMarathon,
         ageGroupHalfMarathon: this.props.enJson.results[this.props.year].ageGroupHalfMarathon,
-        ageGroupFiveK: this.props.enJson.results[this.props.year].ageGroupFiveK
+        ageGroupFiveK: this.props.enJson.results[this.props.year].ageGroupFiveK,
+        teamFiveK: this.props.enJson.results[this.props.year].teamFiveK
       });
     }
   }
@@ -48,6 +50,7 @@ class ERunnerResults extends React.Component {
           Group</a></p>
         <p><a href={this.state.overallFiveK} target='_blank' rel='noopener noreferrer'>5k Overall</a></p>
         <p><a href={this.state.ageGroupFiveK} target='_blank' rel='noopener noreferrer'>5k Age Group</a></p>
+        <p><a href={this.state.teamFiveK} target='_blank' rel='noopener noreferrer'>5k Team</a></p>
       </div>
     );
   }
