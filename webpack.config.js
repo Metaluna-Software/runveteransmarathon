@@ -73,9 +73,6 @@ let config = {
     }),
   ],
   devServer: {
-    // openPage: '',
-    // open: true,
-    // contentBase: pubPath,
     historyApiFallback: true
   }
 };
