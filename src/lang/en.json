@@ -45,6 +45,15 @@
   },
   "results": {
     "columns": ["Race", "Result"],
+    "2021": {
+      "overallMarathon": "http://www.erunner.biz/results/2021-veterans-marathon-marathon-overall-760d",
+      "overallHalfMarathon": "http://www.erunner.biz/results/2021-veterans-marathon-half-marathon-overall-65e1",
+      "overallFiveK": "http://www.erunner.biz/results/2021-veterans-marathon-5k-overall-53b9",
+      "ageGroupMarathon": "http://www.erunner.biz/results/2021-veterans-marathon-marathon-age-group-699b",
+      "ageGroupHalfMarathon": "http://www.erunner.biz/results/2021-veterans-marathon-half-marathon-age-group-6061",
+      "ageGroupFiveK": "http://www.erunner.biz/results/2021-veterans-marathon-5k-age-group-c977",
+      "teamFiveK": "http://www.erunner.biz/results/2021-veterans-marathon-5k-team-23e9"
+    },
     "2020": {
       "overallMarathon": "http://www.erunner.biz/results/2020-veterans-marathon-marathon-overall-71af",
       "overallHalfMarathon": "http://www.erunner.biz/results/2020-veterans-marathon-half-marathon-overall-a5d3",

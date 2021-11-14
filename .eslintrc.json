@@ -5,7 +5,7 @@
     "es6": true,
     "jquery": true
   },
-  "parser": "babel-eslint",
+  "parser": "@babel/eslint-parser",
   "globals": {
     "app": true
   },
@@ -24,7 +24,7 @@
     "ecmaFeatures": {
       "jsx": true
     },
-    "ecmaVersion": 2018,
+    "ecmaVersion": 8,
     "sourceType": "module"
   },
   "plugins": [
@@ -48,7 +48,7 @@
       "error",
       {
         "maxSize": 200,
-        "whitelistedSnapshots": {
+        "allowedSnapshots": {
           "/path/to/file.js.snap": [
             "snapshot name 1"
           ]

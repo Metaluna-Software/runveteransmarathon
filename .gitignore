@@ -12,6 +12,7 @@ node_modules/*
 # Generated Artifacts
 build/*
 public/*
+dist/*
 target/*
 .classpath
 .coverage/
