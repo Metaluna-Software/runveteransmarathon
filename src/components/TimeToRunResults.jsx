@@ -80,7 +80,6 @@ class TimeToRunResults extends React.Component {
     try {
       if (this._isMounted && this._isStale) {
         const csvPath = '../results/' + this.props.year + '-' + this.state.race + '-overall.csv';
-        // const csvPath = path.join(prefix, this.props.year + '-' + this.state.race + '-overall.csv');
         const r = await d3.csv(csvPath);
         if (r.columns && r.columns.length > 0) {
           if (r.columns[0].indexOf('DOCTYPE') > 0) {
