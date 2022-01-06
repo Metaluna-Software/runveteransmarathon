@@ -35,7 +35,7 @@ class Section extends React.Component {
           for (let i = 0; i < messageArray.length; i++) {
             const message = messageArray[i].trim();
             let item;
-            if (message.match(/<img.*\/>/)) {
+            if (message.match(/<img.*\/>/) || message.match(/<img.*>/)) {
               item = message.match(/http(.*?)jpg/);
               if (item) {
                 messageArray[i] = item[0];
@@ -43,6 +43,11 @@ class Section extends React.Component {
                 item = message.match(/http(.*?)jpeg/);
                 if (item) {
                   messageArray[i] = item[0];
+                } else {
+                  item = message.match(/http(.*?)png/);
+                  if (item) {
+                    messageArray[i] = item[0];
+                  }
                 }
               }
             } else if (message.match(/<a.*\/>/)) {
