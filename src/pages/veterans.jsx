@@ -9,6 +9,7 @@ import enData from '../lang/en.json';
 import Results from './veterans/results';
 import Faq from './veterans/faq';
 import VeteransNavigation from '../navigation/veteransnavigation';
+import ChooseRace from './chooseRace';
 import VeteransHome from './veterans/veteranshome';
 
 class VeteransPage extends React.Component {
@@ -24,27 +25,30 @@ class VeteransPage extends React.Component {
     return (
       <Router>
         <VeteransNavigation/>
-        <div id='vetmain' role='main'>
+        <div id="vetmain" role="main">
           <Switch>
-            <Route path='/results.html'>
+            <Route path="/results.html">
               <Results enJson={this.enJson()}/>
             </Route>
-            <Route path='/faq.html'>
+            <Route path="/faq.html">
               <Faq enJson={this.enJson()}/>
             </Route>
-            <Route path='/marathon.html'>
+            <Route path="/marathon.html">
               <Marathon enJson={this.enJson()}/>
             </Route>
-            <Route path='/halfmarathon.html'>
+            <Route path="/halfmarathon.html">
               <HalfMarathon enJson={this.enJson()}/>
             </Route>
-            <Route path='/fivek.html'>
+            <Route path="/fivek.html">
               <FiveK enJson={this.enJson()}/>
             </Route>
-            <Route path='/raceday.html'>
+            <Route path="/raceday.html">
               <RaceDay enJson={this.enJson()}/>
             </Route>
-            <Route path='/'>
+            <Route path="/veterans.html">
+              <VeteransHome enJson={this.enJson()}/>
+            </Route>
+            <Route path="/">
               <VeteransHome enJson={this.enJson()}/>
             </Route>
           </Switch>
