@@ -9,8 +9,9 @@ class VeteransHome extends React.Component {
     return (
       <div className={'section-wrapper'}>
         <div>
-          <p>For <span className={'memorial-info-link'}>Memorial 10k</span> choose Events at the top or <a
-            href="./memorial.html">click here</a></p>
+          <p> For
+            <span className={'memorial-info-link'}>Memorial 10k</span>
+            choose Events at the top or <a href="./memorial.html">click here</a></p>
         </div>
         <div className={'title-container'}>
           <div>
