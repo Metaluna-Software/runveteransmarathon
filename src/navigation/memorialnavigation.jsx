@@ -21,7 +21,7 @@ const MemorialNavigation = () => {
           <li className='nav-item'>
             <a href='https://runsignup.com/Race/IN/ColumbiaCity/TheMemorialDay10k' target='_blank'
                rel='noopener noreferrer' className='nav-link'>Register
-              <i className='fas fa-external-link-alt padding-left-one'></i>
+              <i className="fas fa-external-link-alt padding-left-one"/>
             </a>
           </li>
         </ul>
