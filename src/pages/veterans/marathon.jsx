@@ -8,13 +8,16 @@ import Sponsors from '../../components/sponsors';
 
 const Marathon = (props) => {
   const {
-    enJson
+    enJson,
   } = props;
   return (
     <div className={'section-wrapper'}>
       <Heading message={enJson.marathonTitle}/>
       <Section url={enJson.marathonDetailsWP} enJson={enJson}/>
-      <PriceTable url={enJson.priceWP} priceKey='marathon_prices' columns={enJson.priceColumns}/>
+      <div>
+        <h2>{'Race price'}</h2>
+        <PriceTable url={enJson.priceWP} priceKey="marathon_prices" columns={enJson.priceColumns}/>
+      </div>
       <CourseMap enJson={enJson} course="marathon"/>
       <Section url={enJson.marathonSwagWP} enJson={enJson} title={'Gear'}/>
       <Section url={enJson.marathonAwardsWP} enJson={enJson} title={'Awards'}/>
@@ -32,7 +35,7 @@ Marathon.propTypes = {
   priceColumns: PropTypes.array,
   marathonSwagWP: PropTypes.string,
   marathonAwardsWP: PropTypes.string,
-  marathonRecordsWP: PropTypes.string
+  marathonRecordsWP: PropTypes.string,
 };
 
 export default Marathon;

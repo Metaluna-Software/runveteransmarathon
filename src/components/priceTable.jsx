@@ -32,7 +32,6 @@ class PriceTable extends React.Component {
   render() {
     return (
       <div>
-        <h2>Race price</h2>
         {this.state.isLoading && <Spinner animation='grow' variant='primary'/>}
         <table className='price-table'>
           <thead>

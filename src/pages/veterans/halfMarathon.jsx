@@ -8,13 +8,16 @@ import Sponsors from '../../components/sponsors';
 
 const HalfMarathon = (props) => {
   const {
-    enJson
+    enJson,
   } = props;
   return (
     <div className={'section-wrapper'}>
       <Heading message={enJson.halfMarathonTitle}/>
       <Section url={enJson.halfMarathonDetailsWP} enJson={enJson}/>
-      <PriceTable url={enJson.priceWP} priceKey='half_marathon_prices' columns={enJson.priceColumns}/>
+      <div>
+        <h2>{'Race price'}</h2>
+        <PriceTable url={enJson.priceWP} priceKey="half_marathon_prices" columns={enJson.priceColumns}/>
+      </div>
       <CourseMap enJson={enJson} course="half"/>
       <Section url={enJson.halfmarathonSwagWP} enJson={enJson} title={'Gear'}/>
       <Section url={enJson.halfmarathonAwardsWP} enJson={enJson} title={'Awards'}/>
@@ -32,7 +35,7 @@ HalfMarathon.propTypes = {
   priceColumns: PropTypes.array,
   halfmarathonSwagWP: PropTypes.string,
   halfmarathonAwardsWP: PropTypes.string,
-  halfmarathonRecordsWP: PropTypes.string
+  halfmarathonRecordsWP: PropTypes.string,
 };
 
 export default HalfMarathon;

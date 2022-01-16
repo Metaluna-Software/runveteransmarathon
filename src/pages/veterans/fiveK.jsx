@@ -8,13 +8,16 @@ import Sponsors from '../../components/sponsors';
 
 const FiveK = (props) => {
   const {
-    enJson
+    enJson,
   } = props;
   return (
     <div className={'section-wrapper'}>
       <Heading message={enJson.fiveKTitle}/>
       <Section url={enJson.fiveKDetailsWP} enJson={enJson}/>
-      <PriceTable url={enJson.priceWP} priceKey='5k_prices' columns={enJson.priceColumns}/>
+      <div>
+        <h2>{'Race price'}</h2>
+        <PriceTable url={enJson.priceWP} priceKey="5k_prices" columns={enJson.priceColumns}/>
+      </div>
       <CourseMap enJson={enJson} course="fiveK"/>
       <Section url={enJson.fiveKSwagWP} enJson={enJson} title={'Gear'}/>
       <Section url={enJson.fiveKAwardsWP} enJson={enJson} title={'Awards'}/>
@@ -32,7 +35,7 @@ FiveK.propTypes = {
   priceColumns: PropTypes.array,
   fiveKSwagWP: PropTypes.string,
   fiveKAwardsWP: PropTypes.string,
-  fiveKRecordsWP: PropTypes.string
+  fiveKRecordsWP: PropTypes.string,
 };
 
 export default FiveK;
