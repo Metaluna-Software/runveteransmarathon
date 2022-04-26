@@ -11,6 +11,12 @@ const SponsorsMemorial = () => {
         <Carousel.Item>
           <img className='d-block w-90' src='../images/sponsors/logo_cricket-green.webp' alt='cricket wireless'/>
         </Carousel.Item>
+        <Carousel.Item>
+          <img className='d-block w-90' src='../images/sponsors/culligan.PNG' alt='culligan'/>
+        </Carousel.Item>
+        <Carousel.Item>
+          <img className='d-block w-90' src='../images/sponsors/mooover.jpg' alt='Moo Over'/>
+        </Carousel.Item>
       </Carousel>
     </div>
   );

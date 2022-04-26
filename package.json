@@ -10,7 +10,7 @@
     "build:copy": "webpack --mode production && react-snapshot && cpx \"build\\**\\*\" C:\\xampp\\htdocs",
     "build:dev": "webpack --mode development",
     "doctoc": "doctoc README.md",
-    "eslint": "eslint --ext .jsx,.js,.snap .",
+    "eslint": "eslint --ext .jsx,.js",
     "watch": "webpack --watch",
     "watch:dev": "webpack --watch --mode development"
   },
