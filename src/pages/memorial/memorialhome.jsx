@@ -2,6 +2,7 @@ import React from 'react';
 import Section from '../../components/section';
 import PropTypes from 'prop-types';
 import MemorialBanner from '../../navigation/memorialbanner';
+import SponsorsMemorial from '../../components/sponsorsMemorial';
 
 class MemorialHome extends React.Component {
   render() {
@@ -51,6 +52,7 @@ class MemorialHome extends React.Component {
         </p>
         <MemorialBanner/>
         <Section url={this.props.enJson.memHomeWelcomeWP}/>
+        <SponsorsMemorial/>
       </div>
     );
   }
