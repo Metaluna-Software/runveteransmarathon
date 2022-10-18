@@ -17,6 +17,9 @@ const Sponsors = () => {
         <Carousel.Item>
           <img className='d-block w-90' src='../images/sponsors/culligan.PNG' alt='culligan'/>
         </Carousel.Item>
+        <Carousel.Item>
+          <img className='d-block w-90' src='../images/sponsors/bigg.jpeg' alt='big_g'/>
+        </Carousel.Item>
       </Carousel>
     </div>
   );
