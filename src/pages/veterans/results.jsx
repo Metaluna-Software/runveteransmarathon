@@ -26,7 +26,7 @@ class Results extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
-      year: '2021'
+      year: '2022'
     };
   }
 
