@@ -1,16 +1,16 @@
 {
   "name": "runveteransmarathon",
-  "version": "1.2.0",
+  "version": "1.2.2",
   "description": "Web App for Veterans Marathon",
   "private": true,
   "scripts": {
     "postinstall": "git config core.hooksPath .githooks && npm run eslint",
-    "start": "webpack-dev-server --config ./webpack.config.js --mode development --port 3000 --hot --host 192.168.1.172",
+    "start": "webpack-dev-server --config ./webpack.config.js --mode development --port 3000 --hot --host 192.168.1.204",
     "build": "webpack --mode production && react-snapshot",
     "build:copy": "webpack --mode production && react-snapshot && cpx \"build\\**\\*\" C:\\xampp\\htdocs",
     "build:dev": "webpack --mode development",
     "doctoc": "doctoc README.md",
-    "eslint": "eslint --ext .jsx,.js,.snap .",
+    "eslint": "eslint --ext .jsx,.js",
     "watch": "webpack --watch",
     "watch:dev": "webpack --watch --mode development"
   },
@@ -70,8 +70,8 @@
     "react-select": "^3.1.0",
     "react-table": "^7.5.1"
   },
-  "react-snapshot" : {
-    "exclude" : [
+  "react-snapshot": {
+    "exclude": [
       "snippets.mapmycdn.com/**"
     ]
   }

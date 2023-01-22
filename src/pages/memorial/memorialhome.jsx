@@ -3,6 +3,7 @@ import PropTypes from 'prop-types';
 import MemorialBanner from '../../navigation/memorialbanner';
 import FbLogo from '../../components/fbLogo';
 import InstaLogo from '../../components/instaLogo';
+import SponsorsMemorial from '../../components/sponsorsMemorial';
 
 class MemorialHome extends React.Component {
   render() {
@@ -37,6 +38,7 @@ class MemorialHome extends React.Component {
             City, IN 46725) starting at 8:30 AM till Race time at 10:10 AM. Once the race has started everything will
             shift to the finish line at the Fire Museum. Awards will start at 11:30 AM at the Fire Museum.</p>
         </div>
+        <SponsorsMemorial/>
       </div>
     );
   }

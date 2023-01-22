@@ -31,16 +31,27 @@
   "fiveKSwagWP": "https://runveteransmarathonwp.com/wp-json/wp/v2/posts/39",
   "fiveKAwardsWP": "https://runveteransmarathonwp.com/wp-json/wp/v2/posts/41",
   "fiveKRecordsWP": "https://runveteransmarathonwp.com/wp-json/wp/v2/posts/43",
-  "contactUsDetailWP": "https://runveteransmarathonwp.com/wp-json/wp/v2/posts/60",
   "faqWP": "https://runveteransmarathonwp.com/wp-json/wp/v2/posts/213",
   "course": {
     "marathon": "//snippets.mapmycdn.com/routes/view/embedded/4052569090?width=600&height=400&elevation=true&line_color=E6d90d25&rgbhex=250dd9&distance_markers=1&unit_type=imperial&map_mode=HYBRID&last_updated=2021-01-12T10:09:41-05:00&show_marker_every=2",
+    "marathon_link": "https://snippets.mapmycdn.com/routes/view/4052569090",
     "half": "//snippets.mapmycdn.com/routes/view/embedded/3767468614?width=600&height=400&elevation=true&line_color=E6d90d1a&rgbhex=1a0dd9&distance_markers=1&unit_type=imperial&map_mode=HYBRID&last_updated=2020-12-10T08:35:33-05:00",
+    "half_link": "https://snippets.mapmycdn.com/routes/view/3767468614",
     "fiveK": "//snippets.mapmycdn.com/routes/view/embedded/4052534368?width=600&height=400&elevation=true&line_color=E60f0bdb&rgbhex=DB0B0E&distance_markers=1&unit_type=imperial&map_mode=HYBRID&last_updated=2021-01-12T10:01:23-05:00",
-    "memorial10k": "//snippets.mapmycdn.com/routes/view/embedded/4053684712?width=600&height=400&elevation=true&info=true&line_color=E6d92f0d&rgbhex=0d2fd9&distance_markers=1&unit_type=imperial&map_mode=ROADMAP&last_updated=2021-01-19T16:18:05-05:00"
+    "fiveK_link": "https://snippets.mapmycdn.com/routes/view/4052534368",
+    "memorial10k": "//snippets.mapmycdn.com/routes/view/embedded/4053684712?width=600&height=400&elevation=true&info=true&line_color=E6d92f0d&rgbhex=0d2fd9&distance_markers=1&unit_type=imperial&map_mode=ROADMAP&last_updated=2021-01-19T16:18:05-05:00",
+    "memorial10k_link": "https://snippets.mapmycdn.com/routes/view/4053684712"
   },
   "results": {
     "columns": ["Race", "Result"],
+    "2022": {
+      "overallMarathon": "http://www.erunner.biz/results/2022-veterans-marathon-and-heros-5k-marathon-overall-11a7",
+      "overallHalfMarathon": "http://www.erunner.biz/results/2022-veterans-marathon-and-heros-5k-half-marathon-overall-b202",
+      "overallFiveK": "http://www.erunner.biz/results/2022-veterans-marathon-and-heros-5k-5k-overall-d5ba",
+      "ageGroupMarathon": "http://www.erunner.biz/results/2022-veterans-marathon-and-heros-5k-marathon-age-group-10c6",
+      "ageGroupHalfMarathon": "http://www.erunner.biz/results/2022-veterans-marathon-and-heros-5k-half-marathon-age-group-b3da",
+      "ageGroupFiveK": "http://www.erunner.biz/results/2022-veterans-marathon-and-heros-5k-5k-age-group-796f"
+    },
     "2021": {
       "overallMarathon": "http://www.erunner.biz/results/2021-veterans-marathon-marathon-overall-760d",
       "overallHalfMarathon": "http://www.erunner.biz/results/2021-veterans-marathon-half-marathon-overall-65e1",
