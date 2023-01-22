@@ -4,7 +4,7 @@ const MemorialBanner = () => {
 
   return (
     <div className="banner-wrapper">
-      <img className="memorial-banner-img" src="../images/memorial2022.jpg" alt="logo"/>
+      <img className="memorial-banner-img" src="../images/memorial2023.png" alt="logo"/>
     </div>
   );
 };
