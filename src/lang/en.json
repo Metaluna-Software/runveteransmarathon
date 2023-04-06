@@ -1,6 +1,7 @@
 {
-  "marathonDate": "Nov 12th, 2022",
-  "memRaceDate": "May 30th, 2022",
+  "marathonDate": "Nov 11th, 2023",
+  "memRaceDate": "May 29th, 2023",
+  "memRaceFbEvent": "https://www.facebook.com/events/353535426111505/",
   "homeBanner": "Veterans Marathon and Heroes 5k",
   "homeWelcomeWP": "https://runveteransmarathonwp.com/wp-json/wp/v2/posts/1",
   "memHomeWelcomeWP": "https://runveteransmarathonwp.com/wp-json/wp/v2/posts/249",
@@ -36,6 +37,7 @@
   "fiveKAwardsWP": "https://runveteransmarathonwp.com/wp-json/wp/v2/posts/41",
   "fiveKRecordsWP": "https://runveteransmarathonwp.com/wp-json/wp/v2/posts/43",
   "faqWP": "https://runveteransmarathonwp.com/wp-json/wp/v2/posts/213",
+  "contactUsDetailWP": "https://runveteransmarathonwp.com/wp-json/wp/v2/posts/60",
   "course": {
     "marathon": "//snippets.mapmycdn.com/routes/view/embedded/4052569090?width=600&height=400&elevation=true&line_color=E6d90d25&rgbhex=250dd9&distance_markers=1&unit_type=imperial&map_mode=HYBRID&last_updated=2021-01-12T10:09:41-05:00&show_marker_every=2",
     "marathon_link": "https://snippets.mapmycdn.com/routes/view/4052569090",
