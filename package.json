@@ -5,7 +5,7 @@
   "private": true,
   "scripts": {
     "postinstall": "git config core.hooksPath .githooks && npm run eslint",
-    "start": "webpack-dev-server --config ./webpack.config.js --mode development --port 3000 --hot --host 192.168.1.204",
+    "start": "webpack-dev-server --config ./webpack.config.js --mode development --port 3000 --hot --host 192.168.1.172",
     "build": "webpack --mode production && react-snapshot",
     "build:copy": "webpack --mode production && react-snapshot && cpx \"build\\**\\*\" C:\\xampp\\htdocs",
     "build:dev": "webpack --mode development",

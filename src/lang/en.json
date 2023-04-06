@@ -45,8 +45,8 @@
     "half_link": "https://snippets.mapmycdn.com/routes/view/3767468614",
     "fiveK": "//snippets.mapmycdn.com/routes/view/embedded/4052534368?width=600&height=400&elevation=true&line_color=E60f0bdb&rgbhex=DB0B0E&distance_markers=1&unit_type=imperial&map_mode=HYBRID&last_updated=2021-01-12T10:01:23-05:00",
     "fiveK_link": "https://snippets.mapmycdn.com/routes/view/4052534368",
-    "memorial10k": "//snippets.mapmycdn.com/routes/view/embedded/4053684712?width=600&height=400&elevation=true&info=true&line_color=E6d92f0d&rgbhex=0d2fd9&distance_markers=1&unit_type=imperial&map_mode=ROADMAP&last_updated=2021-01-19T16:18:05-05:00",
-    "memorial10k_link": "https://snippets.mapmycdn.com/routes/view/4053684712"
+    "memorial10k": "//snippets.mapmycdn.com/routes/view/embedded/5461290214?width=600&height=401&elevation=true&line_color=E6b11e0e&rgbhex=0e1eb1&distance_markers=0&unit_type=imperial&map_mode=ROADMAP&show_marker_every=1&last_updated=2023-03-29T13:20:20+00:00",
+    "memorial10k_link": "https://snippets.mapmycdn.com/routes/view/5461290214"
   },
   "results": {
     "columns": ["Race", "Result"],
