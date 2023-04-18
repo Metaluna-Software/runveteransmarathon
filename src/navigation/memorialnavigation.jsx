@@ -6,7 +6,7 @@ const MemorialNavigation = () => {
   return (
     <nav className='navbar navbar-expand-lg navbar-light bg-light nav-wrapper' data-toggle='collapse'
          data-target='.nav-collapse' id='memorial'>
-      <a className='navbar-brand' href='/memorial.html'>10k</a>
+      <a className='navbar-brand' href='/memorial.html'>Home</a>
       <div className='collapse navbar-collapse' id='navbarText'>
         <ul className='navbar-nav mr-auto'>
           <li className='nav-item'>

@@ -2,7 +2,10 @@ import React from 'react';
 import { HashLink as Link } from 'react-router-hash-link';
 import PropTypes from 'prop-types';
 
-const Navigation = () => {
+const Navigation = (props) => {
+  const {
+    enJson,
+  } = props;
   return (
     <nav className='navbar navbar-expand-lg navbar-light navbar-custom-50 bg-secondary nav-wrapper parent-nav' data-toggle='collapse'
          data-target='.nav-collapse'>
@@ -26,7 +29,7 @@ const Navigation = () => {
                   aria-expanded='false'>Events</Link>
             <div className='dropdown-menu'>
               <Link className='dropdown-item' to='veterans.html'>Veterans Marathon</Link>
-              <Link className='dropdown-item' to='memorial.html'>Memorial Day 10k</Link>
+              <Link className='dropdown-item' to='memorial.html'>{enJson.memorial10kTitle}</Link>
             </div>
           </li>
           <li className='nav-item'>
