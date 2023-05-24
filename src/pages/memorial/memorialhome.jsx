@@ -51,8 +51,8 @@ class MemorialHome extends React.Component {
           </a>
         </p>
         <MemorialBanner/>
-        <Section url={this.props.enJson.memHomeWelcomeWP}/>
         <SponsorsMemorial/>
+        <Section url={this.props.enJson.memHomeWelcomeWP}/>
       </div>
     );
   }

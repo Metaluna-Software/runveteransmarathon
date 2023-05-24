@@ -56,8 +56,8 @@ class VeteransHome extends React.Component {
           </div>
         </div>
         <Banner/>
-        <Section url={this.props.enJson.homeWelcomeWP}/>
         <Sponsors/>
+        <Section url={this.props.enJson.homeWelcomeWP}/>
         <Donors/>
       </div>
     );
