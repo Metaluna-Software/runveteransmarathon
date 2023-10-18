@@ -39,7 +39,7 @@
 
 .section-image-wrapper {
     height: 55vw;
-    background-image: url('/images/backgroundv5.png');
+    background-image: url('./images/backgroundv5.png');
     background-position: center center;
     background-repeat: no-repeat;
     background-attachment: scroll;
@@ -88,7 +88,7 @@
 
 @media only screen and (max-width: 767px) {
     .section-image-wrapper {
-        background-image: url('/images/background-mobile.jpg');
+        background-image: url('./images/background-mobile.jpg');
     }
 }
 

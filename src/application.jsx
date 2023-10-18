@@ -20,7 +20,7 @@ class Application extends React.Component {
   render() {
     return (
       <Router>
-        <Navigation/>
+        <Navigation enJson={this.enJson()}/>
         <div id='main' role='main'>
           <Switch>
             <Route path='/contact.html'>
