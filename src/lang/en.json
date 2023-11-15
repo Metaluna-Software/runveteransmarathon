@@ -50,6 +50,14 @@
   },
   "results": {
     "columns": ["Race", "Result"],
+    "2023": {
+      "overallMarathon": "http://www.erunner.biz/results/2023-veterans-marathon-and-heros-5k-marathon-overall-095e",
+      "overallHalfMarathon": "http://www.erunner.biz/results/2023-veterans-marathon-and-heros-5k-half-marathon-overall-a607",
+      "overallFiveK": "http://www.erunner.biz/results/2023-veterans-marathon-and-heros-5k-5k-overall-c6b0",
+      "ageGroupMarathon": "http://www.erunner.biz/results/2023-veterans-marathon-and-heros-5k-marathon-age-group-f4f5",
+      "ageGroupHalfMarathon": "http://www.erunner.biz/results/2023-veterans-marathon-and-heros-5k-half-marathon-age-group-4276",
+      "ageGroupFiveK": "http://www.erunner.biz/results/2023-veterans-marathon-and-heros-5k-5k-age-group-5b21"
+    },
     "2022": {
       "overallMarathon": "http://www.erunner.biz/results/2022-veterans-marathon-and-heros-5k-marathon-overall-11a7",
       "overallHalfMarathon": "http://www.erunner.biz/results/2022-veterans-marathon-and-heros-5k-half-marathon-overall-b202",
