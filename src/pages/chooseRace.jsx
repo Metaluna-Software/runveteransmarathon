@@ -7,12 +7,12 @@ class ChooseRace extends React.Component {
       <div className="section-wrapper">
         <br/>
         <div>
-          <a href={'/veterans.html'}><img className="memorial-banner-img" src="../images/veterans2023.jpeg"
+          <a href={'/veterans.html'}><img className="memorial-banner-img" src="../images/veterans2024.jpg"
                                           alt="veterans race"/></a>
         </div>
         <br/>
         <div>
-          <a href={'/memorial.html'}><img className="memorial-banner-img" src="../images/memorial2023.png"
+          <a href={'/memorial.html'}><img className="memorial-banner-img" src="../images/memorial2024.jpg"
                                           alt="memorial race"/></a>
         </div>
       </div>
